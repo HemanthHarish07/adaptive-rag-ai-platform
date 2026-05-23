@@ -196,36 +196,23 @@ Project 3/
 
 # Start Backend Services
 
-## Terminal 1 — Intent Classifier
 
+### Terminal 1 — Intent Classifier
 ```powershell
-cd "edu-intent-classifier"
-
-..\ .venv311\Scripts\python.exe -m uvicorn app:app --host 0.0.0.0 --port 8000
+cd "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/edu-intent-classifier"
+& "../.venv/Scripts/python.exe" -m uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 
----
-
-## Terminal 2 — Adaptive RAG Backend
-
+### Terminal 2 — Adaptive RAG Backend
 ```powershell
-cd "Adaptive_RAG-Fastapi-Langgraph"
-
-..\ .venv311\Scripts\python.exe run_server.py
+cd "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/Adaptive_RAG-Fastapi-Langgraph"
+& ".venv\Scripts\python.exe" run_server.py
 ```
 
----
-
-# Start Frontend
-
-## Terminal 3
-
+### Terminal 3 — Angular Frontend
 ```powershell
-cd frontend
-
-npm install
-
-npx ng serve
+cd "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/frontend"
+npx @angular/cli serve
 ```
 
 ---
