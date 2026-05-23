@@ -1,0 +1,29 @@
+<div class="page-shell">
+  <div class="auth-card glass-card">
+    <div class="topbar">
+      <div class="eyebrow">AI Learning Platform</div>
+      <h1>Welcome Back</h1>
+      <p>Sign in and route your query through the adaptive RAG intelligence mesh.</p>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <label>
+        Username
+        <input type="text" formControlName="username" autocomplete="username" />
+      </label>
+
+      <label>
+        Password
+        <input type="password" formControlName="password" autocomplete="current-password" />
+      </label>
+
+      <div class="actions">
+        <button type="submit" [disabled]="loading">{{ loading ? 'Signing in...' : 'Sign In' }}</button>
+      </div>
+
+      <p class="hint">No account? <a routerLink="/register">Create one</a></p>
+
+      <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<section class="result-card" *ngIf="result">
+  <div class="card-header">
+    <div>
+      <span class="category">Answer</span>
+      <h2>{{ result.question }}</h2>
+    </div>
+    <span class="status-chip">Response delivered</span>
+  </div>
+
+  <div class="answer-block">
+    <p>{{ result.answer }}</p>
+  </div>
+
+  <div class="meta-grid">
+    <div *ngIf="result.sources?.length">
+      <span>Sources</span>
+      <ul>
+        <li *ngFor="let source of result.sources">{{ source }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  border-radius: 1.5rem;
+  background: rgba(11, 11, 11, 0.92);
+  border: 1px solid rgba(255, 0, 0, 0.14);
+  box-shadow: 0 20px 60px rgba(255, 0, 0, 0.08);
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ff4b6e, transparent 55%),
+    linear-gradient(135deg, #ff0101, #5d0000);
+  box-shadow: 0 0 24px rgba(255, 0, 0, 0.45);
+}
+
+.name {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sub {
+  color: #c8c8c8;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-chip {
+  color: #fff;
+  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.link {
+  color: #ff6b7d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.logout {
+  border: none;
+  padding: 0.85rem 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 0, 0, 0.17);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.logout:hover {
+  transform: translateY(-1px);
+}

@@ -1,0 +1,131 @@
+<div class="dashboard-shell">
+  <app-navbar></app-navbar>
+
+  <div class="content-grid">
+    <main class="workspace">
+      <section class="hero-panel glass-card">
+        <div class="hero-copy">
+          <p class="eyebrow">Adaptive AI Learning</p>
+          <h1>Route questions. Reveal knowledge. Track intent.</h1>
+          <p class="summary">
+            Submit your study query to the RAG engine and watch the classifier + routing pipeline
+            return literature-backed answers, document sources, and path metadata live.
+          </p>
+        </div>
+
+        <form [formGroup]="form" class="query-block">
+          <label class="query-label">Type a question for the AI engine</label>
+          <textarea
+            formControlName="question"
+            placeholder="e.g. Explain backpropagation in neural networks."
+            rows="5"
+          ></textarea>
+
+          <div class="query-actions">
+            <button class="primary" type="button" (click)="submit()" [disabled]="loading">
+              {{ loading ? 'Analyzing...' : 'Ask AI' }}
+            </button>
+            <button class="secondary" type="button" (click)="probeClassifier()" [disabled]="classifierLoading">
+              {{ classifierLoading ? 'Probing...' : 'Probe Classifier' }}
+            </button>
+          </div>
+
+          <div class="feedback-row">
+            <div class="status-pill" *ngIf="currentResult">Live route: {{ currentResult.selected_graph_route || 'pending' }}</div>
+            <div class="status-pill info">Stored queries: {{ (history$ | async)?.length || 0 }}</div>
+          </div>
+
+          <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+        </form>
+      </section>
+
+      <section class="result-section" *ngIf="currentResult">
+        <app-result-card [result]="currentResult"></app-result-card>
+      </section>
+    </main>
+
+    <aside class="sidebar">
+      <section class="glass-card status-card">
+        <h2>Routing metadata</h2>
+        <div class="badges">
+          <app-route-badge
+            label="Intent"
+            [value]="currentResult?.predicted_intent || 'unknown'"
+            [variant]="getBadgeVariant(currentResult?.predicted_intent)">
+          </app-route-badge>
+          <app-route-badge
+            label="Route"
+            [value]="currentResult?.selected_graph_route || 'unknown'"
+            [variant]="getBadgeVariant(currentResult?.selected_graph_route)">
+          </app-route-badge>
+          <app-route-badge
+            label="Retrieval"
+            [value]="currentResult?.retrieval_strategy || 'none'"
+            [variant]="getBadgeVariant(currentResult?.retrieval_strategy)">
+          </app-route-badge>
+          <app-route-badge
+            label="Confidence"
+            [value]="formatConfidence(currentResult?.intent_confidence)"
+            variant="info">
+          </app-route-badge>
+        </div>
+
+        <div class="trace-panel" *ngIf="currentResult?.classifier_request_trace?.length">
+          <span class="trace-title">Classifier trace</span>
+          <ol>
+            <li *ngFor="let step of currentResult?.classifier_request_trace ?? []">{{ formatClassifierTrace(step) }}</li>
+          </ol>
+        </div>
+
+      </section>
+
+      <section class="glass-card history-card">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Session history</span>
+            <h2>Recent queries</h2>
+          </div>
+        </div>
+
+        <div class="history-list">
+          <button
+            class="history-entry"
+            *ngFor="let item of history$ | async"
+            type="button"
+            (click)="showHistory(item)">
+            <div>
+              <strong title="{{ item.question }}">{{ truncateHistoryQuestion(item.question) }}</strong>
+              <span>{{ item.timestamp | date:'short' }}</span>
+            </div>
+
+
+            <span class="badge">View</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="glass-card explorer-card" *ngIf="classifierPreview">
+        <div class="section-header">
+          <span class="eyebrow">Classifier probe</span>
+          <h2>Direct classifier result</h2>
+        </div>
+        <div class="probe-grid">
+          <div>
+            <label>Label</label>
+            <strong>{{ classifierPreview.label }}</strong>
+          </div>
+          <div>
+            <label>Confidence</label>
+            <strong>{{ classifierPreview.confidence | percent:'1.0-0' }}</strong>
+          </div>
+        </div>
+        <div class="probabilities">
+          <span class="subheading">Probabilities</span>
+          <ul>
+            <li *ngFor="let key of classifierPreview?.probabilities | keyvalue">{{ key.key }}: {{ key.value | percent:'1.0-0' }}</li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+  </div>
+</div>

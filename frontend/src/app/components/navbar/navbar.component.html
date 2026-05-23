@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="branding">
+    <span class="logo"></span>
+    <div>
+      <div class="name">Horizon AI Lab</div>
+      <div class="sub">adaptive learning edge</div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <div class="user-chip" *ngIf="user$ | async as user; else guest">{{ user }}</div>
+    <ng-template #guest>
+      <a routerLink="/login" class="link">Sign in</a>
+    </ng-template>
+    <button class="logout" type="button" (click)="logout()">Logout</button>
+  </div>
+</nav>

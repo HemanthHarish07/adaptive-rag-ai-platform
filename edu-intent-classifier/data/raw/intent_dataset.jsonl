@@ -1,0 +1,900 @@
+{"query":"Explain how derivatives works in simple terms.","label":"concept_explanation"}
+{"query":"How does opportunity cost actually work under the hood?","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between quicksort and REST APIs. Can you clarify?","label":"concept_explanation"}
+{"query":"What is the underlying concept of opportunity cost and why is it important?","label":"concept_explanation"}
+{"query":"How do photosynthesis and mitosis interact with each other?","label":"concept_explanation"}
+{"query":"How do supply and demand curve and game theory interact with each other?","label":"concept_explanation"}
+{"query":"Explain the physical process of garbage collection in detail.","label":"concept_explanation"}
+{"query":"How does the mechanism of garbage collection affect database indexing?","label":"concept_explanation"}
+{"query":"How does the mechanism of asynchronous programming affect garbage collection?","label":"concept_explanation"}
+{"query":"Explain how quicksort works in simple terms.","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind plate tectonics?","label":"concept_explanation"}
+{"query":"What is the underlying concept of garbage collection and why is it important?","label":"concept_explanation"}
+{"query":"Can you explain REST APIs using a real-world analogy?","label":"concept_explanation"}
+{"query":"How does quicksort actually work under the hood?","label":"concept_explanation"}
+{"query":"What happens during fiscal policy and why does it occur?","label":"concept_explanation"}
+{"query":"How does the mechanism of asynchronous programming affect REST APIs?","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between eigenvectors and Bayes' theorem. Can you clarify?","label":"concept_explanation"}
+{"query":"How does the mechanism of memory management affect REST APIs?","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of plate tectonics.","label":"concept_explanation"}
+{"query":"How do REST APIs and quicksort interact with each other?","label":"concept_explanation"}
+{"query":"Why is Bayes' theorem considered a fundamental process in mathematics?","label":"concept_explanation"}
+{"query":"What is the underlying concept of game theory and why is it important?","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between Fourier transform and limit of a function. Can you clarify?","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between matrix multiplication and limit of a function. Can you clarify?","label":"concept_explanation"}
+{"query":"Can you explain inflation using a real-world analogy?","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between mitosis and natural selection. Can you clarify?","label":"concept_explanation"}
+{"query":"Describe the step-by-step process of natural selection.","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between inflation and supply and demand curve. Can you clarify?","label":"concept_explanation"}
+{"query":"How do Fourier transform and eigenvectors interact with each other?","label":"concept_explanation"}
+{"query":"Can you explain the mechanics behind derivatives?","label":"concept_explanation"}
+{"query":"How does the mechanism of memory management affect asynchronous programming?","label":"concept_explanation"}
+{"query":"Explain the concept of limit of a function to a 10-year-old.","label":"concept_explanation"}
+{"query":"Explain the physical process of nuclear fusion in detail.","label":"concept_explanation"}
+{"query":"What is the underlying concept of cellular respiration and why is it important?","label":"concept_explanation"}
+{"query":"What is the underlying concept of derivatives and why is it important?","label":"concept_explanation"}
+{"query":"What is the underlying concept of inflation and why is it important?","label":"concept_explanation"}
+{"query":"How does Bayes' theorem actually work under the hood?","label":"concept_explanation"}
+{"query":"Explain the concept of inflation to a 10-year-old.","label":"concept_explanation"}
+{"query":"How do Fourier transform and limit of a function interact with each other?","label":"concept_explanation"}
+{"query":"How does fractional reserve banking actually work under the hood?","label":"concept_explanation"}
+{"query":"How does eigenvectors actually work under the hood?","label":"concept_explanation"}
+{"query":"Describe the step-by-step process of database indexing.","label":"concept_explanation"}
+{"query":"How do game theory and fractional reserve banking interact with each other?","label":"concept_explanation"}
+{"query":"Why is plate tectonics considered a fundamental process in science?","label":"concept_explanation"}
+{"query":"Can you explain the mechanics behind fractional reserve banking?","label":"concept_explanation"}
+{"query":"Explain the concept of cellular respiration to a 10-year-old.","label":"concept_explanation"}
+{"query":"Can you explain the mechanics behind photosynthesis?","label":"concept_explanation"}
+{"query":"How does cellular respiration actually work under the hood?","label":"concept_explanation"}
+{"query":"Describe the step-by-step process of plate tectonics.","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind photosynthesis?","label":"concept_explanation"}
+{"query":"What is the underlying concept of plate tectonics and why is it important?","label":"concept_explanation"}
+{"query":"What happens during derivatives and why does it occur?","label":"concept_explanation"}
+{"query":"How does the mechanism of inflation affect supply and demand curve?","label":"concept_explanation"}
+{"query":"Can you explain the mechanics behind garbage collection?","label":"concept_explanation"}
+{"query":"How do inflation and supply and demand curve interact with each other?","label":"concept_explanation"}
+{"query":"Can you explain natural selection using a real-world analogy?","label":"concept_explanation"}
+{"query":"What is the underlying concept of nuclear fusion and why is it important?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind opportunity cost?","label":"concept_explanation"}
+{"query":"Explain the concept of REST APIs to a 10-year-old.","label":"concept_explanation"}
+{"query":"Explain the physical process of quicksort in detail.","label":"concept_explanation"}
+{"query":"Can you explain cellular respiration using a real-world analogy?","label":"concept_explanation"}
+{"query":"How does the mechanism of natural selection affect photosynthesis?","label":"concept_explanation"}
+{"query":"Why is matrix multiplication considered a fundamental process in mathematics?","label":"concept_explanation"}
+{"query":"How does limit of a function actually work under the hood?","label":"concept_explanation"}
+{"query":"How do Bayes' theorem and limit of a function interact with each other?","label":"concept_explanation"}
+{"query":"Why is natural selection considered a fundamental process in science?","label":"concept_explanation"}
+{"query":"How do nuclear fusion and natural selection interact with each other?","label":"concept_explanation"}
+{"query":"Why is opportunity cost considered a fundamental process in economics?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind fractional reserve banking?","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of opportunity cost.","label":"concept_explanation"}
+{"query":"Can you explain game theory using a real-world analogy?","label":"concept_explanation"}
+{"query":"Can you explain the mechanics behind fiscal policy?","label":"concept_explanation"}
+{"query":"Can you explain mitosis using a real-world analogy?","label":"concept_explanation"}
+{"query":"Explain the concept of plate tectonics to a 10-year-old.","label":"concept_explanation"}
+{"query":"How does the mechanism of Fourier transform affect matrix multiplication?","label":"concept_explanation"}
+{"query":"Explain the physical process of supply and demand curve in detail.","label":"concept_explanation"}
+{"query":"Why is nuclear fusion considered a fundamental process in science?","label":"concept_explanation"}
+{"query":"Explain the physical process of asynchronous programming in detail.","label":"concept_explanation"}
+{"query":"How do fiscal policy and supply and demand curve interact with each other?","label":"concept_explanation"}
+{"query":"Explain the physical process of database indexing in detail.","label":"concept_explanation"}
+{"query":"How do opportunity cost and supply and demand curve interact with each other?","label":"concept_explanation"}
+{"query":"What is the underlying concept of matrix multiplication and why is it important?","label":"concept_explanation"}
+{"query":"Why is database indexing considered a fundamental process in computer_science?","label":"concept_explanation"}
+{"query":"Explain how memory management works in simple terms.","label":"concept_explanation"}
+{"query":"Can you explain fiscal policy using a real-world analogy?","label":"concept_explanation"}
+{"query":"Explain the physical process of limit of a function in detail.","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind nuclear fusion?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind quicksort?","label":"concept_explanation"}
+{"query":"Can you explain Bayes' theorem using a real-world analogy?","label":"concept_explanation"}
+{"query":"How do mitosis and cellular respiration interact with each other?","label":"concept_explanation"}
+{"query":"How does the mechanism of inflation affect fiscal policy?","label":"concept_explanation"}
+{"query":"How does the mechanism of matrix multiplication affect eigenvectors?","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between plate tectonics and cellular respiration. Can you clarify?","label":"concept_explanation"}
+{"query":"Can you explain memory management using a real-world analogy?","label":"concept_explanation"}
+{"query":"Explain the concept of derivatives to a 10-year-old.","label":"concept_explanation"}
+{"query":"Describe the step-by-step process of inflation.","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind matrix multiplication?","label":"concept_explanation"}
+{"query":"Explain the physical process of inflation in detail.","label":"concept_explanation"}
+{"query":"How do mitosis and plate tectonics interact with each other?","label":"concept_explanation"}
+{"query":"How does nuclear fusion actually work under the hood?","label":"concept_explanation"}
+{"query":"Explain how database indexing works in simple terms.","label":"concept_explanation"}
+{"query":"What is the underlying concept of memory management and why is it important?","label":"concept_explanation"}
+{"query":"What happens during Fourier transform and why does it occur?","label":"concept_explanation"}
+{"query":"Can you explain matrix multiplication using a real-world analogy?","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of quicksort.","label":"concept_explanation"}
+{"query":"What happens during memory management and why does it occur?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind natural selection?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind garbage collection?","label":"concept_explanation"}
+{"query":"Describe the step-by-step process of REST APIs.","label":"concept_explanation"}
+{"query":"Why is fractional reserve banking considered a fundamental process in economics?","label":"concept_explanation"}
+{"query":"Can you explain the mechanics behind supply and demand curve?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind eigenvectors?","label":"concept_explanation"}
+{"query":"Can you explain opportunity cost using a real-world analogy?","label":"concept_explanation"}
+{"query":"What happens during database indexing and why does it occur?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind supply and demand curve?","label":"concept_explanation"}
+{"query":"What is the underlying concept of limit of a function and why is it important?","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of eigenvectors.","label":"concept_explanation"}
+{"query":"How does the mechanism of cellular respiration affect natural selection?","label":"concept_explanation"}
+{"query":"Why is mitosis considered a fundamental process in science?","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of fiscal policy.","label":"concept_explanation"}
+{"query":"What happens during photosynthesis and why does it occur?","label":"concept_explanation"}
+{"query":"Can you explain database indexing using a real-world analogy?","label":"concept_explanation"}
+{"query":"Explain how limit of a function works in simple terms.","label":"concept_explanation"}
+{"query":"Explain how garbage collection works in simple terms.","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between fractional reserve banking and game theory. Can you clarify?","label":"concept_explanation"}
+{"query":"Why is fiscal policy considered a fundamental process in economics?","label":"concept_explanation"}
+{"query":"Explain how mitosis works in simple terms.","label":"concept_explanation"}
+{"query":"Explain the concept of matrix multiplication to a 10-year-old.","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between supply and demand curve and fractional reserve banking. Can you clarify?","label":"concept_explanation"}
+{"query":"Explain how Fourier transform works in simple terms.","label":"concept_explanation"}
+{"query":"Why is photosynthesis considered a fundamental process in science?","label":"concept_explanation"}
+{"query":"Explain the concept of asynchronous programming to a 10-year-old.","label":"concept_explanation"}
+{"query":"How does garbage collection actually work under the hood?","label":"concept_explanation"}
+{"query":"Can you explain plate tectonics using a real-world analogy?","label":"concept_explanation"}
+{"query":"Describe the step-by-step process of quicksort.","label":"concept_explanation"}
+{"query":"What happens during opportunity cost and why does it occur?","label":"concept_explanation"}
+{"query":"Why is REST APIs considered a fundamental process in computer_science?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind limit of a function?","label":"concept_explanation"}
+{"query":"What happens during quicksort and why does it occur?","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of derivatives.","label":"concept_explanation"}
+{"query":"I'm struggling to understand the difference between fractional reserve banking and fiscal policy. Can you clarify?","label":"concept_explanation"}
+{"query":"How does the mechanism of fractional reserve banking affect opportunity cost?","label":"concept_explanation"}
+{"query":"Can you walk me through the intuition behind inflation?","label":"concept_explanation"}
+{"query":"Explain the concept of game theory to a 10-year-old.","label":"concept_explanation"}
+{"query":"Explain how nuclear fusion works in simple terms.","label":"concept_explanation"}
+{"query":"Give me a deep dive explanation of nuclear fusion.","label":"concept_explanation"}
+{"query":"Explain the physical process of photosynthesis in detail.","label":"concept_explanation"}
+{"query":"Explain the concept of supply and demand curve to a 10-year-old.","label":"concept_explanation"}
+{"query":"How does the mechanism of Bayes' theorem affect eigenvectors?","label":"concept_explanation"}
+{"query":"What happens during nuclear fusion and why does it occur?","label":"concept_explanation"}
+{"query":"How to write a function in C++ that read a CSV file?","label":"coding_help"}
+{"query":"Write a Go script to hash a password.","label":"coding_help"}
+{"query":"How do I implement a priority queue in JavaScript?","label":"coding_help"}
+{"query":"What is the best way to handle sort an array of dictionaries in TypeScript?","label":"coding_help"}
+{"query":"Give me a clean Go implementation of depth-first search.","label":"coding_help"}
+{"query":"How to write a function in Rust that calculate the fibonacci sequence?","label":"coding_help"}
+{"query":"Write an asynchronous function in Java to fetch data from an API.","label":"coding_help"}
+{"query":"How do I loop through a graph and calculate the fibonacci sequence in Java?","label":"coding_help"}
+{"query":"What is the best way to handle validate an email address in Rust?","label":"coding_help"}
+{"query":"What is the best way to handle hash a password in Rust?","label":"coding_help"}
+{"query":"Write a Python script to hash a password.","label":"coding_help"}
+{"query":"Give me a clean C++ implementation of bubble sort.","label":"coding_help"}
+{"query":"Show me the standard library function for validate an email address in TypeScript.","label":"coding_help"}
+{"query":"Show me the standard library function for sort an array of dictionaries in TypeScript.","label":"coding_help"}
+{"query":"Write a Go script to calculate the fibonacci sequence.","label":"coding_help"}
+{"query":"How do I loop through a hash map and sort an array of dictionaries in Python?","label":"coding_help"}
+{"query":"How do I implement a graph in Go?","label":"coding_help"}
+{"query":"How do I implement a graph in Rust?","label":"coding_help"}
+{"query":"Show me the standard library function for read a CSV file in C++.","label":"coding_help"}
+{"query":"How do I loop through a priority queue and calculate the fibonacci sequence in C++?","label":"coding_help"}
+{"query":"Can you show me the syntax for make an HTTP POST request in Rust?","label":"coding_help"}
+{"query":"Give me a clean C++ implementation of breadth-first search.","label":"coding_help"}
+{"query":"How to write a function in Go that sort an array of dictionaries?","label":"coding_help"}
+{"query":"How to write a function in Java that calculate the fibonacci sequence?","label":"coding_help"}
+{"query":"How to write a function in C++ that make an HTTP POST request?","label":"coding_help"}
+{"query":"Give me a clean C++ implementation of dijkstra's algorithm.","label":"coding_help"}
+{"query":"Write a C++ script to calculate the fibonacci sequence.","label":"coding_help"}
+{"query":"How to write a function in TypeScript that read a CSV file?","label":"coding_help"}
+{"query":"Give me a clean Rust implementation of merge sort.","label":"coding_help"}
+{"query":"Show me a simple example of using spring boot for read a CSV file.","label":"coding_help"}
+{"query":"How do you define a class with a custom constructor in TypeScript?","label":"coding_help"}
+{"query":"How do I implement a binary search tree in C++?","label":"coding_help"}
+{"query":"Write a C++ script to validate an email address.","label":"coding_help"}
+{"query":"How to parse a JSON string in TypeScript?","label":"coding_help"}
+{"query":"Write a boilerplate for a Python application that connects to AWS S3.","label":"coding_help"}
+{"query":"What is the best way to handle read a CSV file in JavaScript?","label":"coding_help"}
+{"query":"Can you show me the syntax for hash a password in JavaScript?","label":"coding_help"}
+{"query":"Give me a clean Rust implementation of breadth-first search.","label":"coding_help"}
+{"query":"How to parse a YAML config in C++?","label":"coding_help"}
+{"query":"How do you define a class with a custom constructor in Java?","label":"coding_help"}
+{"query":"Write a boilerplate for a JavaScript application that connects to AWS S3.","label":"coding_help"}
+{"query":"How do you define a class with a custom constructor in C++?","label":"coding_help"}
+{"query":"Give me a clean Rust implementation of depth-first search.","label":"coding_help"}
+{"query":"How to parse a JSON string in C++?","label":"coding_help"}
+{"query":"What is the best way to handle make an HTTP POST request in C++?","label":"coding_help"}
+{"query":"How do I implement a priority queue in Rust?","label":"coding_help"}
+{"query":"Write an asynchronous function in Go to fetch data from an API.","label":"coding_help"}
+{"query":"Can you show me the syntax for read a CSV file in Java?","label":"coding_help"}
+{"query":"Give me a clean Python implementation of bubble sort.","label":"coding_help"}
+{"query":"How to write a function in Rust that hash a password?","label":"coding_help"}
+{"query":"How do I implement a hash map in C++?","label":"coding_help"}
+{"query":"How to write a function in Rust that read a CSV file?","label":"coding_help"}
+{"query":"Write a SQL query to find duplicate records in a table.","label":"coding_help"}
+{"query":"How do I implement a graph in TypeScript?","label":"coding_help"}
+{"query":"What is the best way to handle read a CSV file in Python?","label":"coding_help"}
+{"query":"Write a boilerplate for a C++ application that connects to an external REST API.","label":"coding_help"}
+{"query":"Show me the standard library function for sort an array of dictionaries in JavaScript.","label":"coding_help"}
+{"query":"Write a SQL query to select employees with salary greater than 50000.","label":"coding_help"}
+{"query":"Write a Java script to hash a password.","label":"coding_help"}
+{"query":"Can you show me the syntax for hash a password in Rust?","label":"coding_help"}
+{"query":"Show me a simple example of using react for calculate the fibonacci sequence.","label":"coding_help"}
+{"query":"Write a boilerplate for a Go application that connects to AWS S3.","label":"coding_help"}
+{"query":"Can you show me the syntax for validate an email address in Python?","label":"coding_help"}
+{"query":"How to write a function in JavaScript that read a CSV file?","label":"coding_help"}
+{"query":"How to parse a CSV file in Python?","label":"coding_help"}
+{"query":"What is the best way to handle read a CSV file in C++?","label":"coding_help"}
+{"query":"How do I implement a priority queue in Python?","label":"coding_help"}
+{"query":"Write a SQL query to group sales by month and calculate the average.","label":"coding_help"}
+{"query":"How do you define a class with a custom constructor in Rust?","label":"coding_help"}
+{"query":"Give me a clean JavaScript implementation of binary search.","label":"coding_help"}
+{"query":"Write an asynchronous function in Rust to fetch data from an API.","label":"coding_help"}
+{"query":"Can you help me write code for depth-first search in C++?","label":"coding_help"}
+{"query":"Write a boilerplate for a JavaScript application that connects to an external REST API.","label":"coding_help"}
+{"query":"How to parse a YAML config in Rust?","label":"coding_help"}
+{"query":"Write a boilerplate for a Java application that connects to a PostgreSQL database.","label":"coding_help"}
+{"query":"How to parse a CSV file in C++?","label":"coding_help"}
+{"query":"Can you show me the syntax for validate an email address in TypeScript?","label":"coding_help"}
+{"query":"Can you show me the syntax for sort an array of dictionaries in Go?","label":"coding_help"}
+{"query":"Can you help me write code for binary search in Python?","label":"coding_help"}
+{"query":"How to parse an XML document in Java?","label":"coding_help"}
+{"query":"How do I loop through a graph and read a CSV file in TypeScript?","label":"coding_help"}
+{"query":"Write an asynchronous function in JavaScript to fetch data from an API.","label":"coding_help"}
+{"query":"Write a boilerplate for a C++ application that connects to AWS S3.","label":"coding_help"}
+{"query":"What is the best way to handle read a CSV file in TypeScript?","label":"coding_help"}
+{"query":"What is the best way to handle make an HTTP POST request in Go?","label":"coding_help"}
+{"query":"How do I implement a priority queue in TypeScript?","label":"coding_help"}
+{"query":"How to write a function in Rust that validate an email address?","label":"coding_help"}
+{"query":"Can you help me write code for breadth-first search in JavaScript?","label":"coding_help"}
+{"query":"Can you help me write code for merge sort in Python?","label":"coding_help"}
+{"query":"Write a Go script to make an HTTP POST request.","label":"coding_help"}
+{"query":"Can you help me write code for breadth-first search in TypeScript?","label":"coding_help"}
+{"query":"Show me a simple example of using spring boot for make an HTTP POST request.","label":"coding_help"}
+{"query":"Show me the standard library function for sort an array of dictionaries in Rust.","label":"coding_help"}
+{"query":"How do I loop through a binary search tree and sort an array of dictionaries in Python?","label":"coding_help"}
+{"query":"How to write a function in TypeScript that validate an email address?","label":"coding_help"}
+{"query":"What is the best way to handle sort an array of dictionaries in Rust?","label":"coding_help"}
+{"query":"How do I implement a linked list in Java?","label":"coding_help"}
+{"query":"How to write a function in Python that hash a password?","label":"coding_help"}
+{"query":"Give me a clean JavaScript implementation of bubble sort.","label":"coding_help"}
+{"query":"Write an asynchronous function in TypeScript to fetch data from an API.","label":"coding_help"}
+{"query":"How do I loop through a linked list and make an HTTP POST request in Python?","label":"coding_help"}
+{"query":"Write a boilerplate for a Python application that connects to a Redis cache.","label":"coding_help"}
+{"query":"How do I loop through a trie and sort an array of dictionaries in Python?","label":"coding_help"}
+{"query":"Can you help me write code for breadth-first search in Go?","label":"coding_help"}
+{"query":"Can you help me write code for merge sort in Java?","label":"coding_help"}
+{"query":"How do I loop through a trie and hash a password in Python?","label":"coding_help"}
+{"query":"Can you help me write code for breadth-first search in Rust?","label":"coding_help"}
+{"query":"How do I implement a linked list in TypeScript?","label":"coding_help"}
+{"query":"How to write a function in Python that calculate the fibonacci sequence?","label":"coding_help"}
+{"query":"Show me a simple example of using pandas for read a CSV file.","label":"coding_help"}
+{"query":"Can you help me write code for merge sort in JavaScript?","label":"coding_help"}
+{"query":"Write a boilerplate for a Rust application that connects to AWS S3.","label":"coding_help"}
+{"query":"Show me the standard library function for validate an email address in Python.","label":"coding_help"}
+{"query":"Give me a clean Rust implementation of binary search.","label":"coding_help"}
+{"query":"Show me the standard library function for validate an email address in JavaScript.","label":"coding_help"}
+{"query":"Write an asynchronous function in Python to fetch data from an API.","label":"coding_help"}
+{"query":"Write a C++ script to sort an array of dictionaries.","label":"coding_help"}
+{"query":"Can you help me write code for dijkstra's algorithm in Python?","label":"coding_help"}
+{"query":"Write a boilerplate for a Rust application that connects to an external REST API.","label":"coding_help"}
+{"query":"How do I implement a linked list in Rust?","label":"coding_help"}
+{"query":"Show me the standard library function for sort an array of dictionaries in Java.","label":"coding_help"}
+{"query":"Give me a clean Java implementation of dijkstra's algorithm.","label":"coding_help"}
+{"query":"Show me a simple example of using react for sort an array of dictionaries.","label":"coding_help"}
+{"query":"How to write a function in Go that make an HTTP POST request?","label":"coding_help"}
+{"query":"How do I loop through a hash map and read a CSV file in TypeScript?","label":"coding_help"}
+{"query":"How to write a function in TypeScript that make an HTTP POST request?","label":"coding_help"}
+{"query":"What is the best way to handle read a CSV file in Rust?","label":"coding_help"}
+{"query":"How do I loop through a binary search tree and validate an email address in Python?","label":"coding_help"}
+{"query":"Show me the standard library function for validate an email address in Rust.","label":"coding_help"}
+{"query":"Show me a simple example of using express.js for hash a password.","label":"coding_help"}
+{"query":"Can you show me the syntax for make an HTTP POST request in JavaScript?","label":"coding_help"}
+{"query":"Show me the standard library function for make an HTTP POST request in Rust.","label":"coding_help"}
+{"query":"Write a boilerplate for a Go application that connects to an external REST API.","label":"coding_help"}
+{"query":"Write a Python script to read a CSV file.","label":"coding_help"}
+{"query":"How to parse a YAML config in Java?","label":"coding_help"}
+{"query":"How do I loop through a trie and hash a password in JavaScript?","label":"coding_help"}
+{"query":"Can you show me the syntax for calculate the fibonacci sequence in Java?","label":"coding_help"}
+{"query":"How to parse an XML document in C++?","label":"coding_help"}
+{"query":"Write a boilerplate for a Java application that connects to a Redis cache.","label":"coding_help"}
+{"query":"Can you help me write code for depth-first search in Java?","label":"coding_help"}
+{"query":"What is the best way to handle make an HTTP POST request in Java?","label":"coding_help"}
+{"query":"How do I implement a graph in C++?","label":"coding_help"}
+{"query":"Show me a simple example of using pandas for make an HTTP POST request.","label":"coding_help"}
+{"query":"How do I loop through a priority queue and sort an array of dictionaries in Go?","label":"coding_help"}
+{"query":"How to write a function in Rust that make an HTTP POST request?","label":"coding_help"}
+{"query":"How do you define a class with a custom constructor in Go?","label":"coding_help"}
+{"query":"Can you show me the syntax for make an HTTP POST request in C++?","label":"coding_help"}
+{"query":"What is the best way to handle make an HTTP POST request in TypeScript?","label":"coding_help"}
+{"query":"How do I implement a hash map in Python?","label":"coding_help"}
+{"query":"How to write a function in Python that validate an email address?","label":"coding_help"}
+{"query":"What are the most common exam questions about cellular respiration?","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my History final exam covering macroeconomic policies.","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Chemistry with a focus on molecular biology.","label":"exam_preparation"}
+{"query":"Quiz me on operating systems scheduling. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on the French Revolution with answers.","label":"exam_preparation"}
+{"query":"Can you review these study notes on probability and statistics and tell me what is missing?","label":"exam_preparation"}
+{"query":"Create a study guide and study plan for organic chemistry reactions.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Biology final exam covering linear algebra.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Economics final exam covering object-oriented programming.","label":"exam_preparation"}
+{"query":"Can you review these study notes on object-oriented programming and tell me what is missing?","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about operating systems scheduling for my exam.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on molecular biology?","label":"exam_preparation"}
+{"query":"Generate a practice quiz on macroeconomic policies with answers.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about calculus derivative rules.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on operating systems scheduling.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on Newton's laws of motion.","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about molecular biology for my exam.","label":"exam_preparation"}
+{"query":"Can you review these study notes on linear algebra and tell me what is missing?","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP History with a focus on object-oriented programming.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on probability and statistics with answers.","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Calculus with a focus on calculus derivative rules.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my History final exam covering calculus derivative rules.","label":"exam_preparation"}
+{"query":"What are the most common exam questions about microeconomics principles?","label":"exam_preparation"}
+{"query":"Quiz me on the French Revolution. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Computer Science final exam covering object-oriented programming.","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Economics with a focus on molecular biology.","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about microeconomics principles for my exam.","label":"exam_preparation"}
+{"query":"Quiz me on organic chemistry reactions. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Quiz me on microeconomics principles. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about microeconomics principles.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on object-oriented programming with answers.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on the French Revolution.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on object-oriented programming.","label":"exam_preparation"}
+{"query":"What are the most common exam questions about molecular biology?","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about macroeconomic policies for my exam.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Computer Science final exam covering microeconomics principles.","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Chemistry with a focus on calculus derivative rules.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Computer Science final exam covering Newton's laws of motion.","label":"exam_preparation"}
+{"query":"Provide some practice problems on microeconomics principles with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Provide some practice problems on molecular biology with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on cellular respiration.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Biology final exam covering probability and statistics.","label":"exam_preparation"}
+{"query":"Quiz me on cellular respiration. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on calculus derivative rules?","label":"exam_preparation"}
+{"query":"What are the most common exam questions about the French Revolution?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on Newton's laws of motion.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on object-oriented programming?","label":"exam_preparation"}
+{"query":"Quiz me on linear algebra. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"I have an exam on macroeconomic policies tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Can you review these study notes on macroeconomic policies and tell me what is missing?","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on macroeconomic policies?","label":"exam_preparation"}
+{"query":"What are the most common exam questions about operating systems scheduling?","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about probability and statistics.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on operating systems scheduling?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on operating systems scheduling.","label":"exam_preparation"}
+{"query":"What are the most common exam questions about macroeconomic policies?","label":"exam_preparation"}
+{"query":"I have an exam on probability and statistics tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on cellular respiration?","label":"exam_preparation"}
+{"query":"Generate a practice quiz on linear algebra with answers.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on Newton's laws of motion?","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Economics final exam covering molecular biology.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on object-oriented programming?","label":"exam_preparation"}
+{"query":"Generate a practice quiz on microeconomics principles with answers.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on organic chemistry reactions?","label":"exam_preparation"}
+{"query":"I have an exam on object-oriented programming tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on operating systems scheduling?","label":"exam_preparation"}
+{"query":"What are the most common exam questions about probability and statistics?","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Calculus with a focus on the French Revolution.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on cellular respiration with answers.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on calculus derivative rules.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on cellular respiration?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on the French Revolution.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about the French Revolution.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on macroeconomic policies.","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Biology with a focus on cellular respiration.","label":"exam_preparation"}
+{"query":"What are the most common exam questions about linear algebra?","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on molecular biology?","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on molecular biology.","label":"exam_preparation"}
+{"query":"Can you review these study notes on operating systems scheduling and tell me what is missing?","label":"exam_preparation"}
+{"query":"Quiz me on macroeconomic policies. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on operating systems scheduling with answers.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about operating systems scheduling.","label":"exam_preparation"}
+{"query":"Provide some practice problems on Newton's laws of motion with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on macroeconomic policies.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on Newton's laws of motion?","label":"exam_preparation"}
+{"query":"Provide some practice problems on probability and statistics with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Provide some practice problems on linear algebra with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Biology final exam covering molecular biology.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on probability and statistics?","label":"exam_preparation"}
+{"query":"Can you review these study notes on microeconomics principles and tell me what is missing?","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on probability and statistics.","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on microeconomics principles.","label":"exam_preparation"}
+{"query":"Quiz me on object-oriented programming. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Create a study guide and study plan for macroeconomic policies.","label":"exam_preparation"}
+{"query":"Create a study guide and study plan for probability and statistics.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Computer Science final exam covering probability and statistics.","label":"exam_preparation"}
+{"query":"Can you review these study notes on calculus derivative rules and tell me what is missing?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on linear algebra.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on calculus derivative rules with answers.","label":"exam_preparation"}
+{"query":"Can you review these study notes on cellular respiration and tell me what is missing?","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about cellular respiration for my exam.","label":"exam_preparation"}
+{"query":"Can you review these study notes on organic chemistry reactions and tell me what is missing?","label":"exam_preparation"}
+{"query":"What are the most common exam questions about organic chemistry reactions?","label":"exam_preparation"}
+{"query":"I have an exam on the French Revolution tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about macroeconomic policies.","label":"exam_preparation"}
+{"query":"Provide some practice problems on the French Revolution with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Provide some practice problems on object-oriented programming with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP History with a focus on calculus derivative rules.","label":"exam_preparation"}
+{"query":"Create a study guide and study plan for the French Revolution.","label":"exam_preparation"}
+{"query":"What are the most common exam questions about object-oriented programming?","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Biology with a focus on calculus derivative rules.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on linear algebra?","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on microeconomics principles?","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my Physics final exam covering calculus derivative rules.","label":"exam_preparation"}
+{"query":"Create a comprehensive cheat sheet for my History final exam covering molecular biology.","label":"exam_preparation"}
+{"query":"I have an exam on molecular biology tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about organic chemistry reactions for my exam.","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about linear algebra for my exam.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on macroeconomic policies?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on organic chemistry reactions.","label":"exam_preparation"}
+{"query":"Create a study guide and study plan for microeconomics principles.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on microeconomics principles?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on probability and statistics.","label":"exam_preparation"}
+{"query":"Generate a practice quiz on organic chemistry reactions with answers.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about object-oriented programming.","label":"exam_preparation"}
+{"query":"Can you help me prepare for a test on probability and statistics?","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on linear algebra?","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about Newton's laws of motion for my exam.","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about probability and statistics for my exam.","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on organic chemistry reactions.","label":"exam_preparation"}
+{"query":"I have an exam on microeconomics principles tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP Computer Science with a focus on macroeconomic policies.","label":"exam_preparation"}
+{"query":"What are the most common exam questions about Newton's laws of motion?","label":"exam_preparation"}
+{"query":"Give me 5 practice questions about object-oriented programming for my exam.","label":"exam_preparation"}
+{"query":"I have an exam on linear algebra tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Quiz me on Newton's laws of motion. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"I have an exam on Newton's laws of motion tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Give me a mock exam for AP History with a focus on linear algebra.","label":"exam_preparation"}
+{"query":"Quiz me on molecular biology. Ask me one question at a time.","label":"exam_preparation"}
+{"query":"Create a study guide and study plan for operating systems scheduling.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about organic chemistry reactions.","label":"exam_preparation"}
+{"query":"I have an exam on organic chemistry reactions tomorrow, what are the high-yield topics?","label":"exam_preparation"}
+{"query":"Give me some flashcard prompts for active recall on calculus derivative rules.","label":"exam_preparation"}
+{"query":"Provide some practice problems on macroeconomic policies with step-by-step solutions.","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about linear algebra.","label":"exam_preparation"}
+{"query":"Can you review these study notes on the French Revolution and tell me what is missing?","label":"exam_preparation"}
+{"query":"Explain how to solve a standard exam problem on microeconomics principles.","label":"exam_preparation"}
+{"query":"Provide some practice problems on cellular respiration with step-by-step solutions.","label":"exam_preparation"}
+{"query":"What are the key concepts I need to study for an exam on the French Revolution?","label":"exam_preparation"}
+{"query":"Generate some multiple-choice questions about molecular biology.","label":"exam_preparation"}
+{"query":"Why am I getting a ZeroDivisionError in this JavaScript code?","label":"debugging"}
+{"query":"Why does this JavaScript block throw an exception: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"Why does this SQL query fail: SELECT * FROM users WHERE id = 'abc' (id is integer)","label":"debugging"}
+{"query":"Why is my variable returning undefined instead of the expected value in Java?","label":"debugging"}
+{"query":"I am getting a NullPointerException when trying to parse JSON in JavaScript. How do I solve this?","label":"debugging"}
+{"query":"I am getting a TypeError when trying to parse JSON in JavaScript. How do I solve this?","label":"debugging"}
+{"query":"Why does my JavaScript program raise a ZeroDivisionError when I run it?","label":"debugging"}
+{"query":"How do I resolve a NullPointerException in numpy?","label":"debugging"}
+{"query":"Why is my variable returning None instead of the expected value in Python?","label":"debugging"}
+{"query":"I have a bug in my Python code. Here is the snippet: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"I am getting a ValueError when trying to parse JSON in Rust. How do I solve this?","label":"debugging"}
+{"query":"My Rust loop runs infinitely. How do I fix it?","label":"debugging"}
+{"query":"Why does my Rust program raise a ValueError when I run it?","label":"debugging"}
+{"query":"Why am I getting a NullPointerException in this JavaScript code?","label":"debugging"}
+{"query":"How do I debug a segmentation fault in my TypeScript program?","label":"debugging"}
+{"query":"Why does my C++ program raise a KeyError when I run it?","label":"debugging"}
+{"query":"I am getting a SyntaxError when trying to parse CSV in TypeScript. How do I solve this?","label":"debugging"}
+{"query":"Why am I getting a IndexOutOfBoundsException in this Rust code?","label":"debugging"}
+{"query":"I am getting a AttributeError when trying to parse JSON in TypeScript. How do I solve this?","label":"debugging"}
+{"query":"Help me fix this syntax error in my C++ file.","label":"debugging"}
+{"query":"Why am I getting a NullPointerException in this Python code?","label":"debugging"}
+{"query":"I am getting a KeyError when trying to parse XML in Python. How do I solve this?","label":"debugging"}
+{"query":"Explain this error message: Uncaught TypeError: Cannot read properties of undefined (reading 'map')","label":"debugging"}
+{"query":"How do I resolve a SyntaxError in Django?","label":"debugging"}
+{"query":"Why is my variable returning null instead of the expected value in TypeScript?","label":"debugging"}
+{"query":"Why am I getting a NullPointerException in this SQL code?","label":"debugging"}
+{"query":"How do I resolve a KeyError in Spring Boot?","label":"debugging"}
+{"query":"I have a bug in my SQL code. Here is the snippet: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"Can you help me debug this Python function? It returns the wrong output.","label":"debugging"}
+{"query":"Fix this Rust code: it is throwing a KeyError.","label":"debugging"}
+{"query":"Explain this error message: django.db.utils.OperationalError: no such table","label":"debugging"}
+{"query":"Why am I getting a TypeError in this JavaScript code?","label":"debugging"}
+{"query":"Why is my variable returning undefined instead of the expected value in JavaScript?","label":"debugging"}
+{"query":"Why does my Python program raise a KeyError when I run it?","label":"debugging"}
+{"query":"Why is my variable returning undefined instead of the expected value in Python?","label":"debugging"}
+{"query":"How do I resolve a AttributeError in pandas?","label":"debugging"}
+{"query":"I am getting a TypeError when trying to parse JSON in Java. How do I solve this?","label":"debugging"}
+{"query":"Why am I getting a NullPointerException in this Rust code?","label":"debugging"}
+{"query":"I am getting a TypeError when trying to parse JSON in C++. How do I solve this?","label":"debugging"}
+{"query":"Why is my variable returning null instead of the expected value in Python?","label":"debugging"}
+{"query":"I have a bug in my Rust code. Here is the snippet: my_dict = {'a': 1}; print(my_dict['b'])","label":"debugging"}
+{"query":"Why does this Rust block throw an exception: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"Why am I getting a KeyError in this JavaScript code?","label":"debugging"}
+{"query":"How do I resolve a SyntaxError in numpy?","label":"debugging"}
+{"query":"How do I resolve a ZeroDivisionError in Django?","label":"debugging"}
+{"query":"Why is my variable returning null instead of the expected value in Rust?","label":"debugging"}
+{"query":"How do I resolve a IndexOutOfBoundsException in React?","label":"debugging"}
+{"query":"I have a bug in my C++ code. Here is the snippet: int* p = NULL; *p = 10;","label":"debugging"}
+{"query":"Why does my SQL program raise a SyntaxError when I run it?","label":"debugging"}
+{"query":"Why does this SQL block throw an exception: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"Why am I getting a ValueError in this JavaScript code?","label":"debugging"}
+{"query":"Can you help me debug this C++ function? It returns the wrong output.","label":"debugging"}
+{"query":"Why does my JavaScript program raise a ValueError when I run it?","label":"debugging"}
+{"query":"My TypeScript loop runs infinitely. How do I fix it?","label":"debugging"}
+{"query":"Why am I getting a IndexOutOfBoundsException in this Java code?","label":"debugging"}
+{"query":"Why does this JavaScript block throw an exception: my_dict = {'a': 1}; print(my_dict['b'])","label":"debugging"}
+{"query":"Why does this Java block throw an exception: my_dict = {'a': 1}; print(my_dict['b'])","label":"debugging"}
+{"query":"I have a bug in my JavaScript code. Here is the snippet: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"My SQL code is slow and freezing. Can you look at it for performance issues?","label":"debugging"}
+{"query":"My SQL loop runs infinitely. How do I fix it?","label":"debugging"}
+{"query":"Why does my SQL program raise a AttributeError when I run it?","label":"debugging"}
+{"query":"Why does my C++ program raise a NullPointerException when I run it?","label":"debugging"}
+{"query":"Why does this SQL query fail: INSERT INTO users (id) VALUES (1) (violates unique constraint)","label":"debugging"}
+{"query":"Fix this Java code: it is throwing a SyntaxError.","label":"debugging"}
+{"query":"My JavaScript loop runs infinitely. How do I fix it?","label":"debugging"}
+{"query":"Why does my Java program raise a ValueError when I run it?","label":"debugging"}
+{"query":"Can you help me debug this JavaScript function? It returns the wrong output.","label":"debugging"}
+{"query":"How do I debug a segmentation fault in my Python program?","label":"debugging"}
+{"query":"I am getting a NullPointerException when trying to parse JSON in TypeScript. How do I solve this?","label":"debugging"}
+{"query":"I have a bug in my Java code. Here is the snippet: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"Why am I getting a AttributeError in this C++ code?","label":"debugging"}
+{"query":"Why am I getting a KeyError in this SQL code?","label":"debugging"}
+{"query":"Fix this Java code: it is throwing a NullPointerException.","label":"debugging"}
+{"query":"Why does my JavaScript program raise a IndexOutOfBoundsException when I run it?","label":"debugging"}
+{"query":"Why does this Python block throw an exception: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"Fix this Rust code: it is throwing a AttributeError.","label":"debugging"}
+{"query":"I have a bug in my TypeScript code. Here is the snippet: my_dict = {'a': 1}; print(my_dict['b'])","label":"debugging"}
+{"query":"Why is my variable returning undefined instead of the expected value in C++?","label":"debugging"}
+{"query":"Can you help me debug this TypeScript function? It returns the wrong output.","label":"debugging"}
+{"query":"Why is my variable returning None instead of the expected value in C++?","label":"debugging"}
+{"query":"I am getting a ZeroDivisionError when trying to parse YAML in SQL. How do I solve this?","label":"debugging"}
+{"query":"How do I debug a segmentation fault in my C++ program?","label":"debugging"}
+{"query":"How do I resolve a KeyError in numpy?","label":"debugging"}
+{"query":"I have a bug in my SQL code. Here is the snippet: int* p = NULL; *p = 10;","label":"debugging"}
+{"query":"I have a bug in my Rust code. Here is the snippet: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"I am getting a ZeroDivisionError when trying to parse CSV in JavaScript. How do I solve this?","label":"debugging"}
+{"query":"Why does my TypeScript program raise a TypeError when I run it?","label":"debugging"}
+{"query":"How do I resolve a IndexOutOfBoundsException in Django?","label":"debugging"}
+{"query":"Fix this Rust code: it is throwing a ValueError.","label":"debugging"}
+{"query":"Why does this C++ block throw an exception: int* p = NULL; *p = 10;","label":"debugging"}
+{"query":"Fix this Python code: it is throwing a ValueError.","label":"debugging"}
+{"query":"Fix this JavaScript code: it is throwing a NullPointerException.","label":"debugging"}
+{"query":"My Python code is slow and freezing. Can you look at it for performance issues?","label":"debugging"}
+{"query":"I have a bug in my Python code. Here is the snippet: my_dict = {'a': 1}; print(my_dict['b'])","label":"debugging"}
+{"query":"Why does my C++ program raise a TypeError when I run it?","label":"debugging"}
+{"query":"Why am I getting a ZeroDivisionError in this Java code?","label":"debugging"}
+{"query":"Can you help me debug this Rust function? It returns the wrong output.","label":"debugging"}
+{"query":"Help me fix this syntax error in my SQL file.","label":"debugging"}
+{"query":"I am getting a KeyError when trying to parse YAML in SQL. How do I solve this?","label":"debugging"}
+{"query":"Why does my Rust program raise a AttributeError when I run it?","label":"debugging"}
+{"query":"Fix this Java code: it is throwing a ZeroDivisionError.","label":"debugging"}
+{"query":"My Python loop runs infinitely. How do I fix it?","label":"debugging"}
+{"query":"I have a bug in my Python code. Here is the snippet: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"Help me fix this syntax error in my Python file.","label":"debugging"}
+{"query":"I am getting a SyntaxError when trying to parse JSON in JavaScript. How do I solve this?","label":"debugging"}
+{"query":"My Rust code is slow and freezing. Can you look at it for performance issues?","label":"debugging"}
+{"query":"Why does this TypeScript block throw an exception: int* p = NULL; *p = 10;","label":"debugging"}
+{"query":"Why is my variable returning null instead of the expected value in JavaScript?","label":"debugging"}
+{"query":"I am getting a ValueError when trying to parse YAML in C++. How do I solve this?","label":"debugging"}
+{"query":"Why does my JavaScript program raise a NullPointerException when I run it?","label":"debugging"}
+{"query":"Fix this Python code: it is throwing a AttributeError.","label":"debugging"}
+{"query":"Why does my TypeScript program raise a ZeroDivisionError when I run it?","label":"debugging"}
+{"query":"Why does this Python block throw an exception: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"Why am I getting a NullPointerException in this TypeScript code?","label":"debugging"}
+{"query":"I have a bug in my C++ code. Here is the snippet: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"I am getting a IndexOutOfBoundsException when trying to parse YAML in Java. How do I solve this?","label":"debugging"}
+{"query":"Fix this JavaScript code: it is throwing a TypeError.","label":"debugging"}
+{"query":"Why does my SQL program raise a IndexOutOfBoundsException when I run it?","label":"debugging"}
+{"query":"My TypeScript code is slow and freezing. Can you look at it for performance issues?","label":"debugging"}
+{"query":"Why is my variable returning None instead of the expected value in Rust?","label":"debugging"}
+{"query":"How do I resolve a TypeError in numpy?","label":"debugging"}
+{"query":"How do I debug a segmentation fault in my Rust program?","label":"debugging"}
+{"query":"Why am I getting a IndexOutOfBoundsException in this TypeScript code?","label":"debugging"}
+{"query":"I have a bug in my SQL code. Here is the snippet: const data = null; console.log(data.name);","label":"debugging"}
+{"query":"Help me fix this syntax error in my JavaScript file.","label":"debugging"}
+{"query":"How do I resolve a TypeError in NodeJS?","label":"debugging"}
+{"query":"How do I resolve a SyntaxError in pandas?","label":"debugging"}
+{"query":"How do I resolve a NullPointerException in NodeJS?","label":"debugging"}
+{"query":"My JavaScript code is slow and freezing. Can you look at it for performance issues?","label":"debugging"}
+{"query":"How do I resolve a AttributeError in Spring Boot?","label":"debugging"}
+{"query":"My C++ code is slow and freezing. Can you look at it for performance issues?","label":"debugging"}
+{"query":"Why does this Rust block throw an exception: int* p = NULL; *p = 10;","label":"debugging"}
+{"query":"Fix this Rust code: it is throwing a NullPointerException.","label":"debugging"}
+{"query":"Why am I getting a SyntaxError in this C++ code?","label":"debugging"}
+{"query":"Why does my SQL program raise a ZeroDivisionError when I run it?","label":"debugging"}
+{"query":"Explain this error message: java.lang.NullPointerException: Cannot invoke 'String.length()' because 'str' is null","label":"debugging"}
+{"query":"Why does this C++ block throw an exception: def process(items): return items[10] # but items has length 5","label":"debugging"}
+{"query":"Help me fix this syntax error in my Rust file.","label":"debugging"}
+{"query":"Why does this SQL query fail: SELECT name, SUM(price) FROM orders (missing GROUP BY)","label":"debugging"}
+{"query":"I am getting a ZeroDivisionError when trying to parse CSV in Java. How do I solve this?","label":"debugging"}
+{"query":"Help me fix this syntax error in my Java file.","label":"debugging"}
+{"query":"Explain this error message: ValueError: math domain error","label":"debugging"}
+{"query":"My C++ loop runs infinitely. How do I fix it?","label":"debugging"}
+{"query":"I am getting a KeyError when trying to parse JSON in Java. How do I solve this?","label":"debugging"}
+{"query":"Fix this Python code: it is throwing a IndexOutOfBoundsException.","label":"debugging"}
+{"query":"Why am I getting a SyntaxError in this Rust code?","label":"debugging"}
+{"query":"I have a bug in my Rust code. Here is the snippet: int* p = NULL; *p = 10;","label":"debugging"}
+{"query":"How do I debug a segmentation fault in my SQL program?","label":"debugging"}
+{"query":"I am getting a ZeroDivisionError when trying to parse YAML in Python. How do I solve this?","label":"debugging"}
+{"query":"How do I resolve a ValueError in React?","label":"debugging"}
+{"query":"What is the difference between syntactic sugar and enthalpy in terms of definition?","label":"definition"}
+{"query":"Define photosynthesis in simple terms.","label":"definition"}
+{"query":"Define quantum superposition in simple terms.","label":"definition"}
+{"query":"What does the term neuroplasticity mean in Chemistry?","label":"definition"}
+{"query":"Can you give me a brief explanation of the term recursion?","label":"definition"}
+{"query":"Explain what epistemology means.","label":"definition"}
+{"query":"What does CSS stand for?","label":"definition"}
+{"query":"What is the difference between quantum superposition and gradient ascent in terms of definition?","label":"definition"}
+{"query":"What is the difference between liquidity and cellular respiration in terms of definition?","label":"definition"}
+{"query":"What is superconductivity?","label":"definition"}
+{"query":"Define superconductivity in simple terms.","label":"definition"}
+{"query":"What does OOP stand for?","label":"definition"}
+{"query":"What is the difference between photosynthesis and synaptic pruning in terms of definition?","label":"definition"}
+{"query":"Definition of liquidity.","label":"definition"}
+{"query":"Provide a one-sentence definition of liquidity.","label":"definition"}
+{"query":"What does the term quantum superposition mean in Biology?","label":"definition"}
+{"query":"What does HTTP mean in Mathematics?","label":"definition"}
+{"query":"Provide a one-sentence definition of osmosis.","label":"definition"}
+{"query":"What is the meaning of polymorphism in Computer Science?","label":"definition"}
+{"query":"How is neuroplasticity defined in Mathematics?","label":"definition"}
+{"query":"Provide a one-sentence definition of syntactic sugar.","label":"definition"}
+{"query":"What does the term eigenvector mean in Mathematics?","label":"definition"}
+{"query":"What is a osmosis?","label":"definition"}
+{"query":"Definition of polymorphism.","label":"definition"}
+{"query":"How is recursion defined in Chemistry?","label":"definition"}
+{"query":"What does IDE stand for?","label":"definition"}
+{"query":"What does SQL stand for?","label":"definition"}
+{"query":"Give me a quick definition of quantum superposition.","label":"definition"}
+{"query":"What does MVC mean in Economics?","label":"definition"}
+{"query":"What is the meaning of osmosis in Biology?","label":"definition"}
+{"query":"Give me a quick definition of superconductivity.","label":"definition"}
+{"query":"Can you give me a brief explanation of the term photosynthesis?","label":"definition"}
+{"query":"What is a quantum superposition?","label":"definition"}
+{"query":"What is the difference between recursion and semiconductivity in terms of definition?","label":"definition"}
+{"query":"What is photosynthesis?","label":"definition"}
+{"query":"What is a photosynthesis?","label":"definition"}
+{"query":"What does the term superconductivity mean in Physics?","label":"definition"}
+{"query":"Provide a one-sentence definition of polymorphism.","label":"definition"}
+{"query":"What does CSS mean in Biology?","label":"definition"}
+{"query":"What is the difference between polymorphism and boilerplate in terms of definition?","label":"definition"}
+{"query":"What is the difference between recursion and deflation in terms of definition?","label":"definition"}
+{"query":"What exactly is liquidity?","label":"definition"}
+{"query":"What is a entropy?","label":"definition"}
+{"query":"Define liquidity in simple terms.","label":"definition"}
+{"query":"Explain what mitosis means.","label":"definition"}
+{"query":"What does the term photosynthesis mean in Philosophy?","label":"definition"}
+{"query":"What is a mitosis?","label":"definition"}
+{"query":"What is the meaning of eigenvector in Mathematics?","label":"definition"}
+{"query":"How is gradient descent defined in Physics?","label":"definition"}
+{"query":"What is the difference between epistemology and solvency in terms of definition?","label":"definition"}
+{"query":"How is entropy defined in Biology?","label":"definition"}
+{"query":"What is polymorphism?","label":"definition"}
+{"query":"What is the difference between recursion and inheritance in terms of definition?","label":"definition"}
+{"query":"What is a polymorphism?","label":"definition"}
+{"query":"What exactly is neuroplasticity?","label":"definition"}
+{"query":"What is entropy?","label":"definition"}
+{"query":"What does HTTP stand for?","label":"definition"}
+{"query":"What exactly is syntactic sugar?","label":"definition"}
+{"query":"What does the term epistemology mean in Chemistry?","label":"definition"}
+{"query":"Explain what neuroplasticity means.","label":"definition"}
+{"query":"Can you give me a brief explanation of the term mitosis?","label":"definition"}
+{"query":"What does CSS mean in Physics?","label":"definition"}
+{"query":"What is a gradient descent?","label":"definition"}
+{"query":"Give me a quick definition of liquidity.","label":"definition"}
+{"query":"Define eigenvector in simple terms.","label":"definition"}
+{"query":"What does JSON stand for?","label":"definition"}
+{"query":"Can you give me a brief explanation of the term entropy?","label":"definition"}
+{"query":"Provide a one-sentence definition of superconductivity.","label":"definition"}
+{"query":"Give me a quick definition of photosynthesis.","label":"definition"}
+{"query":"Explain what photosynthesis means.","label":"definition"}
+{"query":"Definition of inflation.","label":"definition"}
+{"query":"Definition of osmosis.","label":"definition"}
+{"query":"Definition of gradient descent.","label":"definition"}
+{"query":"What is the meaning of eigenvector in Computer Science?","label":"definition"}
+{"query":"How is quantum superposition defined in Physics?","label":"definition"}
+{"query":"What is a epistemology?","label":"definition"}
+{"query":"What is the meaning of neuroplasticity in Physics?","label":"definition"}
+{"query":"Explain what liquidity means.","label":"definition"}
+{"query":"What is the meaning of gradient descent in Philosophy?","label":"definition"}
+{"query":"What is the meaning of osmosis in Computer Science?","label":"definition"}
+{"query":"What does the term osmosis mean in Economics?","label":"definition"}
+{"query":"Define entropy in simple terms.","label":"definition"}
+{"query":"Can you give me a brief explanation of the term eigenvector?","label":"definition"}
+{"query":"Explain what superconductivity means.","label":"definition"}
+{"query":"What exactly is entropy?","label":"definition"}
+{"query":"What does MVC mean in Philosophy?","label":"definition"}
+{"query":"What does the term superconductivity mean in Computer Science?","label":"definition"}
+{"query":"What is the meaning of inflation in Biology?","label":"definition"}
+{"query":"How is polymorphism defined in Physics?","label":"definition"}
+{"query":"What is the difference between liquidity and boilerplate in terms of definition?","label":"definition"}
+{"query":"Define osmosis in simple terms.","label":"definition"}
+{"query":"How is mitosis defined in Physics?","label":"definition"}
+{"query":"Give me a quick definition of gradient descent.","label":"definition"}
+{"query":"What does IDE mean in Physics?","label":"definition"}
+{"query":"Definition of syntactic sugar.","label":"definition"}
+{"query":"Give me a quick definition of epistemology.","label":"definition"}
+{"query":"How is osmosis defined in Philosophy?","label":"definition"}
+{"query":"Can you give me a brief explanation of the term quantum superposition?","label":"definition"}
+{"query":"Definition of photosynthesis.","label":"definition"}
+{"query":"Explain what osmosis means.","label":"definition"}
+{"query":"What is gradient descent?","label":"definition"}
+{"query":"Definition of recursion.","label":"definition"}
+{"query":"Provide a one-sentence definition of epistemology.","label":"definition"}
+{"query":"Give me a quick definition of polymorphism.","label":"definition"}
+{"query":"What is a superconductivity?","label":"definition"}
+{"query":"What does CPU mean in Physics?","label":"definition"}
+{"query":"What does HTML mean in Neuroscience?","label":"definition"}
+{"query":"What does RAM mean in Chemistry?","label":"definition"}
+{"query":"What is a recursion?","label":"definition"}
+{"query":"What is the meaning of epistemology in Computer Science?","label":"definition"}
+{"query":"What does the term osmosis mean in Neuroscience?","label":"definition"}
+{"query":"What does DNS stand for?","label":"definition"}
+{"query":"What is a neuroplasticity?","label":"definition"}
+{"query":"Explain what syntactic sugar means.","label":"definition"}
+{"query":"Give me a quick definition of neuroplasticity.","label":"definition"}
+{"query":"What is the meaning of liquidity in Neuroscience?","label":"definition"}
+{"query":"What is the difference between eigenvector and meiosis in terms of definition?","label":"definition"}
+{"query":"How is gradient descent defined in Mathematics?","label":"definition"}
+{"query":"How is polymorphism defined in Computer Science?","label":"definition"}
+{"query":"What exactly is superconductivity?","label":"definition"}
+{"query":"What does HTTP mean in Chemistry?","label":"definition"}
+{"query":"What does the term epistemology mean in Physics?","label":"definition"}
+{"query":"Can you give me a brief explanation of the term liquidity?","label":"definition"}
+{"query":"Definition of neuroplasticity.","label":"definition"}
+{"query":"How is neuroplasticity defined in Economics?","label":"definition"}
+{"query":"What is liquidity?","label":"definition"}
+{"query":"What exactly is quantum superposition?","label":"definition"}
+{"query":"What is mitosis?","label":"definition"}
+{"query":"What exactly is mitosis?","label":"definition"}
+{"query":"What does the term entropy mean in Physics?","label":"definition"}
+{"query":"Provide a one-sentence definition of entropy.","label":"definition"}
+{"query":"What is neuroplasticity?","label":"definition"}
+{"query":"What does SDK stand for?","label":"definition"}
+{"query":"Definition of epistemology.","label":"definition"}
+{"query":"What is recursion?","label":"definition"}
+{"query":"What does the term inflation mean in Neuroscience?","label":"definition"}
+{"query":"How is syntactic sugar defined in Philosophy?","label":"definition"}
+{"query":"What exactly is polymorphism?","label":"definition"}
+{"query":"What does RAM stand for?","label":"definition"}
+{"query":"What does the term liquidity mean in Physics?","label":"definition"}
+{"query":"Provide a one-sentence definition of eigenvector.","label":"definition"}
+{"query":"What does the term quantum superposition mean in Physics?","label":"definition"}
+{"query":"What is a inflation?","label":"definition"}
+{"query":"What is the meaning of photosynthesis in Neuroscience?","label":"definition"}
+{"query":"What exactly is inflation?","label":"definition"}
+{"query":"Provide a one-sentence definition of neuroplasticity.","label":"definition"}
+{"query":"Definition of mitosis.","label":"definition"}
+{"query":"What is the meaning of osmosis in Mathematics?","label":"definition"}
+{"query":"Definition of quantum superposition.","label":"definition"}
+{"query":"What does HTML mean in Biology?","label":"definition"}
+{"query":"What is the mathematical proof of the central limit theorem?","label":"theory"}
+{"query":"What is the mathematical proof of the standard model of particle physics?","label":"theory"}
+{"query":"Who proposed the Godel's incompleteness theorems and why?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of the P vs NP problem?","label":"theory"}
+{"query":"What is the academic theory behind the halting problem?","label":"theory"}
+{"query":"What are the core axioms of Godel's incompleteness theorems?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of Godel's incompleteness theorems?","label":"theory"}
+{"query":"What is the academic theory behind Keynesian economics?","label":"theory"}
+{"query":"Who proposed the computational complexity theory and why?","label":"theory"}
+{"query":"What is the mathematical proof of Euler's identity?","label":"theory"}
+{"query":"What is the debate between computational complexity theory and decidability in academic literature?","label":"theory"}
+{"query":"Who discovered penicillin and what was the historical context?","label":"theory"}
+{"query":"What is the mathematical proof of Keynesian economics?","label":"theory"}
+{"query":"Provide the formal derivation of computational complexity theory.","label":"theory"}
+{"query":"Can you summarize the original paper on Attention Is All You Need?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of the halting problem?","label":"theory"}
+{"query":"Explain the proof of special relativity in detail.","label":"theory"}
+{"query":"What is the mathematical proof of the Schrödinger equation?","label":"theory"}
+{"query":"What is the mathematical formulation of the halting problem?","label":"theory"}
+{"query":"What are the core axioms of Euler's identity?","label":"theory"}
+{"query":"What are the core axioms of computational complexity theory?","label":"theory"}
+{"query":"Explain the theoretical limitations of computational complexity theory.","label":"theory"}
+{"query":"What are the core axioms of Keynesian economics?","label":"theory"}
+{"query":"What is the history of the the structure of DNA?","label":"theory"}
+{"query":"Explain the theoretical limitations of special relativity.","label":"theory"}
+{"query":"Explain the theoretical limitations of Keynesian economics.","label":"theory"}
+{"query":"Explain the theoretical limitations of Godel's incompleteness theorems.","label":"theory"}
+{"query":"What is the history of the the expanding universe?","label":"theory"}
+{"query":"What is the debate between Godel's incompleteness theorems and the law of large numbers in academic literature?","label":"theory"}
+{"query":"What are the core axioms of the halting problem?","label":"theory"}
+{"query":"What is the mathematical proof of the halting problem?","label":"theory"}
+{"query":"Provide the formal derivation of the P vs NP problem.","label":"theory"}
+{"query":"What is the debate between the standard model of particle physics and general relativity in academic literature?","label":"theory"}
+{"query":"What is the debate between computational complexity theory and Turing completeness in academic literature?","label":"theory"}
+{"query":"Who proposed the the P vs NP problem and why?","label":"theory"}
+{"query":"Provide the formal derivation of special relativity.","label":"theory"}
+{"query":"Explain the theoretical limitations of the P vs NP problem.","label":"theory"}
+{"query":"Explain the theoretical limitations of the central limit theorem.","label":"theory"}
+{"query":"What is the debate between the standard model of particle physics and quantum mechanics in academic literature?","label":"theory"}
+{"query":"Can you explain the theoretical foundations of the halting problem?","label":"theory"}
+{"query":"Who proposed the the halting problem and why?","label":"theory"}
+{"query":"What is the academic theory behind the central limit theorem?","label":"theory"}
+{"query":"Explain the proof of the halting problem in detail.","label":"theory"}
+{"query":"Who discovered plate tectonics and what was the historical context?","label":"theory"}
+{"query":"Who proposed the Keynesian economics and why?","label":"theory"}
+{"query":"Derive the formula for least squares regression coefficient.","label":"theory"}
+{"query":"What is the debate between the P vs NP problem and algorithmic information theory in academic literature?","label":"theory"}
+{"query":"What is the academic theory behind the P vs NP problem?","label":"theory"}
+{"query":"What is the mathematical proof of Godel's incompleteness theorems?","label":"theory"}
+{"query":"What is the academic theory behind the standard model of particle physics?","label":"theory"}
+{"query":"What are the core axioms of the central limit theorem?","label":"theory"}
+{"query":"What is the history of the the electron?","label":"theory"}
+{"query":"Explain the proof of computational complexity theory in detail.","label":"theory"}
+{"query":"Derive the formula for quadratic equation.","label":"theory"}
+{"query":"What is the mathematical formulation of Godel's incompleteness theorems?","label":"theory"}
+{"query":"Provide the formal derivation of the standard model of particle physics.","label":"theory"}
+{"query":"What is the debate between the central limit theorem and Turing completeness in academic literature?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of Euler's identity?","label":"theory"}
+{"query":"What is the mathematical formulation of Euler's identity?","label":"theory"}
+{"query":"Explain the theoretical limitations of the halting problem.","label":"theory"}
+{"query":"What is the mathematical formulation of the Schrödinger equation?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of the Schrödinger equation?","label":"theory"}
+{"query":"Who discovered the structure of DNA and what was the historical context?","label":"theory"}
+{"query":"What are the core axioms of the Schrödinger equation?","label":"theory"}
+{"query":"Who discovered the electron and what was the historical context?","label":"theory"}
+{"query":"What is the history of the plate tectonics?","label":"theory"}
+{"query":"What is the mathematical proof of computational complexity theory?","label":"theory"}
+{"query":"What is the academic theory behind computational complexity theory?","label":"theory"}
+{"query":"Can you summarize the original paper on Computing Machinery and Intelligence?","label":"theory"}
+{"query":"What is the debate between the halting problem and the law of large numbers in academic literature?","label":"theory"}
+{"query":"Who discovered calculus and what was the historical context?","label":"theory"}
+{"query":"Can you explain the theoretical foundations of special relativity?","label":"theory"}
+{"query":"Who proposed the the Schrödinger equation and why?","label":"theory"}
+{"query":"Explain the proof of the central limit theorem in detail.","label":"theory"}
+{"query":"Can you explain the theoretical foundations of the central limit theorem?","label":"theory"}
+{"query":"Can you explain the theoretical foundations of Keynesian economics?","label":"theory"}
+{"query":"What is the debate between the standard model of particle physics and classical economics in academic literature?","label":"theory"}
+{"query":"Derive the formula for gravitational force.","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of special relativity?","label":"theory"}
+{"query":"What is the academic theory behind special relativity?","label":"theory"}
+{"query":"What is the debate between the P vs NP problem and quantum mechanics in academic literature?","label":"theory"}
+{"query":"Can you summarize the original paper on A Mathematical Theory of Communication?","label":"theory"}
+{"query":"Explain the proof of the standard model of particle physics in detail.","label":"theory"}
+{"query":"Derive the formula for ideal gas law.","label":"theory"}
+{"query":"What is the mathematical formulation of special relativity?","label":"theory"}
+{"query":"Who proposed the special relativity and why?","label":"theory"}
+{"query":"Explain the proof of the P vs NP problem in detail.","label":"theory"}
+{"query":"Who proposed the the standard model of particle physics and why?","label":"theory"}
+{"query":"What is the mathematical formulation of the central limit theorem?","label":"theory"}
+{"query":"What is the debate between the P vs NP problem and the law of large numbers in academic literature?","label":"theory"}
+{"query":"What is the history of the penicillin?","label":"theory"}
+{"query":"Who discovered the expanding universe and what was the historical context?","label":"theory"}
+{"query":"What is the history of the the photoelectric effect?","label":"theory"}
+{"query":"What is the academic theory behind the Schrödinger equation?","label":"theory"}
+{"query":"What is the mathematical proof of the P vs NP problem?","label":"theory"}
+{"query":"Provide the formal derivation of the halting problem.","label":"theory"}
+{"query":"Provide the formal derivation of the Schrödinger equation.","label":"theory"}
+{"query":"Can you explain the theoretical foundations of Euler's identity?","label":"theory"}
+{"query":"What is the debate between the halting problem and information theory in academic literature?","label":"theory"}
+{"query":"Can you explain the theoretical foundations of the Schrödinger equation?","label":"theory"}
+{"query":"What is the debate between the P vs NP problem and Turing completeness in academic literature?","label":"theory"}
+{"query":"Explain the proof of Keynesian economics in detail.","label":"theory"}
+{"query":"What is the debate between special relativity and general relativity in academic literature?","label":"theory"}
+{"query":"What is the mathematical formulation of the P vs NP problem?","label":"theory"}
+{"query":"Explain the proof of Godel's incompleteness theorems in detail.","label":"theory"}
+{"query":"What is the debate between Euler's identity and decidability in academic literature?","label":"theory"}
+{"query":"Explain the theoretical limitations of Euler's identity.","label":"theory"}
+{"query":"What is the debate between the Schrödinger equation and the Church-Turing thesis in academic literature?","label":"theory"}
+{"query":"What is the debate between the halting problem and algorithmic information theory in academic literature?","label":"theory"}
+{"query":"Explain the theoretical limitations of the Schrödinger equation.","label":"theory"}
+{"query":"Can you summarize the original paper on ImageNet Classification with Deep Convolutional Neural Networks?","label":"theory"}
+{"query":"What is the academic theory behind Godel's incompleteness theorems?","label":"theory"}
+{"query":"What is the mathematical formulation of the standard model of particle physics?","label":"theory"}
+{"query":"What is the debate between the Schrödinger equation and algorithmic information theory in academic literature?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of computational complexity theory?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of the central limit theorem?","label":"theory"}
+{"query":"Provide the formal derivation of Keynesian economics.","label":"theory"}
+{"query":"Explain the theoretical limitations of the standard model of particle physics.","label":"theory"}
+{"query":"Can you explain the theoretical foundations of the standard model of particle physics?","label":"theory"}
+{"query":"What are the core axioms of the standard model of particle physics?","label":"theory"}
+{"query":"Who discovered the photoelectric effect and what was the historical context?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of the standard model of particle physics?","label":"theory"}
+{"query":"Provide the formal derivation of Euler's identity.","label":"theory"}
+{"query":"Explain the proof of Euler's identity in detail.","label":"theory"}
+{"query":"Can you explain the theoretical foundations of Godel's incompleteness theorems?","label":"theory"}
+{"query":"What is the debate between Euler's identity and classical economics in academic literature?","label":"theory"}
+{"query":"What is the debate between computational complexity theory and the law of large numbers in academic literature?","label":"theory"}
+{"query":"Who proposed the the central limit theorem and why?","label":"theory"}
+{"query":"Provide the formal derivation of Godel's incompleteness theorems.","label":"theory"}
+{"query":"Derive the formula for Gaussian distribution.","label":"theory"}
+{"query":"Who discovered superconductivity and what was the historical context?","label":"theory"}
+{"query":"What is the debate between special relativity and the Church-Turing thesis in academic literature?","label":"theory"}
+{"query":"What is the philosophical or theoretical basis of Keynesian economics?","label":"theory"}
+{"query":"Can you explain the theoretical foundations of computational complexity theory?","label":"theory"}
+{"query":"What are the core axioms of special relativity?","label":"theory"}
+{"query":"What is the history of the superconductivity?","label":"theory"}
+{"query":"Can you explain the theoretical foundations of the P vs NP problem?","label":"theory"}
+{"query":"What are the core axioms of the P vs NP problem?","label":"theory"}
+{"query":"What is the debate between Godel's incompleteness theorems and the Church-Turing thesis in academic literature?","label":"theory"}
+{"query":"What is the history of the calculus?","label":"theory"}
+{"query":"What is the mathematical formulation of Keynesian economics?","label":"theory"}
+{"query":"Who proposed the Euler's identity and why?","label":"theory"}
+{"query":"Derive the formula for entropy in information theory.","label":"theory"}
+{"query":"Explain the proof of the Schrödinger equation in detail.","label":"theory"}
+{"query":"Provide the formal derivation of the central limit theorem.","label":"theory"}
+{"query":"What is the debate between Keynesian economics and the Church-Turing thesis in academic literature?","label":"theory"}
+{"query":"What is the academic theory behind Euler's identity?","label":"theory"}
+{"query":"What is the debate between Euler's identity and quantum mechanics in academic literature?","label":"theory"}
+{"query":"What is the debate between Keynesian economics and classical economics in academic literature?","label":"theory"}
+{"query":"What is the mathematical formulation of computational complexity theory?","label":"theory"}

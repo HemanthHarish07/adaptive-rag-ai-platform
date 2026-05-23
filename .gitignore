@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+.chroma/
+
+# Environment
+.env
+*.env
+
+# Node
+node_modules/
+
+# Angular build
+frontend/dist/
+frontend/.angular/
+
+# Logs
+*.log
+
+# Temp/debug files
+*.tmp
+body*.json
+tmp_*.json
+token_resp.json
+query*.json
+register_resp.json
+token_inspect.py
+e2e_qa_results.json
+run_server.py.bak
+

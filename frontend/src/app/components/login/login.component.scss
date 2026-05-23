@@ -1,0 +1,124 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  padding: 2rem;
+  background: radial-gradient(circle at top, rgba(255, 0, 20, 0.16), transparent 28%),
+    linear-gradient(180deg, #060606 0%, #0d0d0f 100%);
+}
+
+.page-shell {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.auth-card {
+  width: min(520px, 100%);
+  padding: 2rem;
+  border-radius: 2rem;
+  background: rgba(14, 14, 14, 0.86);
+  border: 1px solid rgba(255, 0, 0, 0.16);
+  box-shadow: 0 20px 80px rgba(255, 0, 0, 0.08);
+  backdrop-filter: blur(20px);
+}
+
+.topbar {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  color: #ff4b6e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  margin-bottom: 0.8rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #f8f8f8;
+}
+
+p {
+  color: #c8c8c8;
+  margin-top: 0.8rem;
+  line-height: 1.7;
+}
+
+form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+label {
+  display: grid;
+  gap: 0.4rem;
+  color: #ebebeb;
+  font-size: 0.95rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(12, 12, 12, 0.92);
+  color: #fff;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+  border-color: rgba(255, 71, 71, 0.85);
+  box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.1);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #ff0055, #ff3b5d);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 28px rgba(255, 0, 0, 0.22);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hint {
+  color: #999;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #ff3b5d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #ff5f6d;
+  padding: 0.9rem 1rem;
+  background: rgba(255, 0, 0, 0.08);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 0, 0, 0.15);
+}
