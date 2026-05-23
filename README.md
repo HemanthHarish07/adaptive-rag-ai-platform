@@ -95,26 +95,6 @@ Ollama Local LLM
 
 ---
 
-# Screenshots
-
-Add screenshots here:
-
-```text
-/docs/screenshots/login.png
-/docs/screenshots/dashboard.png
-/docs/screenshots/routing-panel.png
-```
-
-Recommended screenshots:
-
-1. Login page
-2. Main dashboard/chat UI
-3. Routing metadata panel
-4. Debugging query route
-5. Theory query route
-
----
-
 # Demo Flow
 
 ## Theory Question
