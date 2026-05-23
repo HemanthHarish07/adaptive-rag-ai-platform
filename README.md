@@ -1,183 +1,346 @@
 # Adaptive RAG AI Learning Platform
 
-Adaptive RAG learning assistant combining a local intent classifier (8000), a LangGraph RAG backend (8001), and an Angular UI (4200) with browser-exposed routing metadata.
+> A full-stack AI learning platform that combines **DistilBERT intent classification**, **LangGraph adaptive routing**, **local LLM inference with Ollama**, and a **modern Angular frontend** to dynamically choose the best retrieval strategy for each user query.
 
-## Architecture (text-based diagram)
+---
 
-Browser (4200) → Angular Frontend
+## Preview
 
-Angular → RAG Backend (8001) → Classifier (8000)
-                                 → Ollama (local LLM)
-                                 → ChromaDB (vectors)
+```text
+Debugging Query  → Web Search Route
+Theory Question  → Vectorstore Route
+```
 
-## Tech Stack
+The system visually exposes:
 
-- **Angular** (frontend, port `4200`)
-- **FastAPI + LangGraph** (RAG backend, port `8001`)
-- **FastAPI (intent classifier service)** on port `8000`
-- **Ollama** (local LLM)
-- **ChromaDB** (vector store)
-- **SQLite** (JWT user store)
-- **JWT auth** (token-based security)
+* predicted intent
+* confidence score
+* selected graph route
+* retrieval strategy
+* classifier traces
+
+inside the frontend UI in real time.
+
+---
+
+# Features
+
+## Adaptive Query Routing
+
+Queries are dynamically routed using a fine-tuned DistilBERT classifier.
+
+| Query Type              | Route                 |
+| ----------------------- | --------------------- |
+| Debugging / coding help | Web Search            |
+| Theory / concepts       | Vectorstore Retrieval |
+
+---
+
+## Full Stack Architecture
+
+### Frontend
+
+* Angular 19
+* TypeScript
+* JWT auth
+* Responsive cyberpunk UI
+* Live routing visualization
+
+### Backend
+
+* FastAPI
+* LangGraph orchestration
+* ChromaDB vector retrieval
+* SQLite authentication
+* Ollama local LLM inference
+
+### ML / AI
+
+* DistilBERT intent classifier
+* Transformers + PyTorch
+* Adaptive RAG pipeline
+
+---
+
+# System Architecture
+
+```text
+Angular Frontend (4200)
+        ↓
+Adaptive RAG Backend (8001)
+        ↓
+Intent Classifier Service (8000)
+        ↓
+LangGraph Routing Engine
+        ↓
+├── Vectorstore Retrieval (ChromaDB)
+└── Web Search Route
+        ↓
+Ollama Local LLM
+```
+
+---
+
+# Key Capabilities
+
+* Intent-aware adaptive retrieval
+* JWT-secured authentication
+* LangGraph multi-stage orchestration
+* Live route transparency
+* Query history
+* Responsive UI
+* Local offline inference
+* Real-time classifier confidence display
+* Full-stack AI workflow visualization
+
+---
+
+# Screenshots
+
+Add screenshots here:
+
+```text
+/docs/screenshots/login.png
+/docs/screenshots/dashboard.png
+/docs/screenshots/routing-panel.png
+```
+
+Recommended screenshots:
+
+1. Login page
+2. Main dashboard/chat UI
+3. Routing metadata panel
+4. Debugging query route
+5. Theory query route
+
+---
+
+# Demo Flow
+
+## Theory Question
+
+Input:
+
+```text
+What is machine learning?
+```
+
+Expected Route:
+
+```text
+vectorstore retrieval
+```
+
+Displayed Metadata:
+
+* predicted_intent
+* confidence score
+* retrieval strategy
+* graph route
+
+---
+
+## Debugging Question
+
+Input:
+
+```text
+How do I fix this Python traceback error?
+```
+
+Expected Route:
+
+```text
+websearch
+```
+
+Displayed Metadata:
+
+* predicted_intent
+* confidence score
+* retrieval strategy
+* graph route
+
+---
+
+# Project Structure
+
+```text
+Project 3/
+│
+├── frontend/                         # Angular frontend
+│
+├── edu-intent-classifier/            # DistilBERT classifier API
+│
+├── Adaptive_RAG-Fastapi-Langgraph/  # LangGraph RAG backend
+│
+└── README.md
+```
+
+---
+
+# Running the Project
 
 ## Prerequisites
 
-- Python 3.11+
-- Node.js + npm (for Angular)
-- Local **Ollama** running with at least one model available
-- Ports free: **8000**, **8001**, **4200**
+* Python 3.11
+* Node.js + npm
+* Ollama installed locally
+* Ports available:
 
-## Quick Start (3 terminals)
+  * 4200
+  * 8000
+  * 8001
 
-Open 3 separate PowerShell terminals from the repo root.
+---
 
-### Terminal 1 — classifier on 8000
+# Start Backend Services
 
-```powershell
-Set-Location "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/Adaptive_RAG-Fastapi-Langgraph"
-& ".venv\Scripts\python.exe" "..\edu-intent-classifier\run.py" --serve
-```
-
-### Terminal 2 — RAG backend on 8001
+## Terminal 1 — Intent Classifier
 
 ```powershell
-Set-Location "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/Adaptive_RAG-Fastapi-Langgraph"
-& ".venv\Scripts\python.exe" "run_server.py"
+cd "edu-intent-classifier"
+
+..\ .venv311\Scripts\python.exe -m uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 
-### Terminal 3 — ng serve (frontend on 4200)
+---
+
+## Terminal 2 — Adaptive RAG Backend
 
 ```powershell
-Set-Location "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/frontend"
-ng serve
+cd "Adaptive_RAG-Fastapi-Langgraph"
+
+..\ .venv311\Scripts\python.exe run_server.py
 ```
 
-## Browser URLs
+---
 
-- Frontend app:      http://localhost:4200
-- Login page:        http://localhost:4200/login
-- Register page:     http://localhost:4200/register
-- RAG Swagger docs:  http://localhost:8001/docs
-- Classifier docs:   http://localhost:8000/docs
-- RAG health:        http://localhost:8001/health
-- Classifier health: http://localhost:8000/health
+# Start Frontend
 
-## How to Use the App (card)
+## Terminal 3
 
-### Test credentials
+```powershell
+cd frontend
 
-- **Username:** testuser
-- **Password:** test123
+npm install
 
-### 1) Login
+npx ng serve
+```
 
-1. Open: http://localhost:4200/login
-2. Enter the credentials above.
-3. Submit.
+---
 
-### 2) Run queries & see routing metadata
+# Application URLs
 
-After login, use the query box in the main UI.
+| Service                 | URL                                                              |
+| ----------------------- | ---------------------------------------------------------------- |
+| Angular Frontend        | [http://localhost:4200](http://localhost:4200)                   |
+| Login Page              | [http://localhost:4200/login](http://localhost:4200/login)       |
+| Register Page           | [http://localhost:4200/register](http://localhost:4200/register) |
+| RAG Swagger Docs        | [http://localhost:8001/docs](http://localhost:8001/docs)         |
+| Classifier Swagger Docs | [http://localhost:8000/docs](http://localhost:8000/docs)         |
 
-#### A) Route that goes to **vectorstore**
+---
 
-- **Type in the query box:**
-  - `What is machine learning?`
-- **What routing metadata panel should show:**
-  - `predicted_intent`: something concept/definition-like (e.g., “concept_definition” / similar)
-  - `intent_confidence`: a non-null confidence score (e.g., 0.5+)
-  - `selected_graph_route`: `vectorstore` (or the UI’s label for vector retrieval)
-  - `retrieval_strategy`: `vectorstore` / `chroma` (depending on the UI wording)
-  - `classifier_request_trace`: the classifier trace returned by the classifier service (non-empty)
+# API Endpoints
 
-#### B) Route that goes to **websearch**
+## Authentication
 
-- **Type in the query box:**
-  - `How do I fix this error in Python when I get a traceback?`
-- **What routing metadata panel should show:**
-  - `predicted_intent`: something debugging/help-like (e.g., “debug_help” / similar)
-  - `intent_confidence`: a non-null confidence score
-  - `selected_graph_route`: `websearch`
-  - `retrieval_strategy`: `websearch` / external web retrieval mode (depending on UI wording)
-  - `classifier_request_trace`: non-empty
+```text
+POST /token
+POST /register
+GET  /users/me
+```
 
-### Notes on routing metadata
+## Intent Classifier
 
-The UI reads routing metadata that the backend returns in the query response (e.g., `predicted_intent`, `selected_graph_route`, `retrieval_strategy`, and `classifier_request_trace`).
+```text
+POST /predict
+GET  /health
+```
 
-## API Endpoints
+## Adaptive RAG
 
-### Authentication (RAG backend - `8001`)
+```text
+POST /query
+GET  /health
+```
 
-- `POST /token` — login and receive JWT
-- `GET /users/me` — current authenticated user info
+---
 
-### Intent Classifier service (`8000`)
+# LangGraph Workflow
 
-- `POST /predict` — predict intent for a query
-- `GET /health` — health check
+The backend uses a multi-stage LangGraph pipeline:
 
-### RAG System (`8001`)
+```text
+Route → Retrieve → Generate → Grade
+```
 
-- `POST /query` — run retrieval-augmented generation
-- `GET /health` — health check
+### Route Stage
 
-## Features
+Determines the optimal retrieval path using classifier output.
 
-- **FastAPI** server with `/query`, `/token`, and health endpoints
-- **LangGraph** multi-stage orchestration for routing, retrieval, generation, and grading
-- **Local Ollama** LLM integration
-- **SQLite** user store for JWT authentication
-- **Intent classification** microservice on port `8000`
-- **Adaptive routing** from classifier output to either **vectorstore** retrieval or **websearch**
-- **JWT auth flow** enforced by the RAG backend
-- UI displays **routing metadata** for transparency and debugging
+### Retrieve Stage
 
-## LangGraph pipeline explanation
+Fetches relevant context from:
 
-The RAG backend runs a LangGraph state machine across stages:
+* ChromaDB
+* web search
 
-1. **Route stage**: chooses the best route based on classifier output.
-2. **Retrieve stage**: fetches context from **ChromaDB** (vectorstore) or prepares web context.
-3. **Generate stage**: generates the final answer using **Ollama**.
-4. **Grade stage**: evaluates/refines the answer quality.
+### Generate Stage
 
-The backend streams events internally and then returns final `answer` plus routing metadata fields.
+Uses Ollama to generate the final answer.
 
-## JWT auth flow
+### Grade Stage
 
-1. User logs in via the frontend -> `POST http://localhost:8001/token`.
-2. Backend verifies username/password against the **SQLite** user store.
-3. Backend returns a signed **JWT**.
-4. Frontend stores the token (local storage) and sends it as:
-   - `Authorization: Bearer <JWT>`
-5. Backend protects `POST /query` using `OAuth2PasswordBearer`.
+Evaluates response quality and retries if needed.
 
-## Routing behavior explanation
+---
 
-- The backend first calls the classifier service (`8000`) to get intent and routing decision.
-- Then the LangGraph route selection determines whether the query will use:
-  - **Vectorstore** retrieval for concept/definition questions
-  - **Websearch** for debugging/coding-help-like questions
-- The response includes routing metadata so the UI can show:
-  - `predicted_intent`
-  - `selected_graph_route`
-  - `retrieval_strategy`
-  - `classifier_request_trace`
+# Authentication Flow
 
-## Notes
+```text
+Frontend Login
+    ↓
+POST /token
+    ↓
+JWT Generated
+    ↓
+Stored in Frontend
+    ↓
+Bearer Token attached to /query requests
+```
 
-- Designed for local development and experimentation.
-- Backend uses **SQLite** (no PostgreSQL needed).
-- If the RAG UI doesn’t show routing metadata, ensure backend and classifier are running and reachable on `8001`/`8000`.
-- Make sure Ollama has a working model selected/available for generation.
+---
 
-## Why This Project Is Unique
+# Why This Project Is Unique
 
-- Only project in this portfolio with a custom fine-tuned model (DistilBERT)
-- Fully offline: no cloud API required, runs on local hardware
-- LangGraph orchestration: not a simple API call, a real stateful pipeline
-- Adaptive routing: queries take different paths based on ML classification
-- Full stack: trained model → FastAPI microservice → Angular UI
+* Custom fine-tuned DistilBERT classifier
+* Adaptive ML-driven routing
+* LangGraph orchestration pipeline
+* Local LLM execution using Ollama
+* Full-stack implementation
+* Transparent AI routing visualization
+* No dependency on paid cloud AI APIs
 
+---
 
+# Future Improvements
+
+* Docker deployment
+* Redis caching
+* Streaming token responses
+* Multi-user support
+* Voice interaction
+* Cloud vector database
+* CI/CD pipeline
+* Kubernetes deployment
+
+---
+
+# Author
+
+## Hemanth Harish
+
+GitHub:
+[https://github.com/HemanthHarish07/adaptive-rag-ai-platform](https://github.com/HemanthHarish07/adaptive-rag-ai-platform)
