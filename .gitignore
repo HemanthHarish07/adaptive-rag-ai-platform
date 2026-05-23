@@ -38,3 +38,13 @@ token_inspect.py
 e2e_qa_results.json
 run_server.py.bak
 
+
+edu-intent-classifier/models/
+
+edu-intent-classifier/models/
+
+**/__pycache__/
+
+*.bin
+
+*.safetensors
