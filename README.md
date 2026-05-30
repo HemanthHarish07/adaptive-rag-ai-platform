@@ -1,103 +1,190 @@
-# Adaptive RAG AI Learning Platform
+# Adaptive RAG AI Platform
+Built as a full-stack AI learning platform demonstrating intent-aware retrieval, LangGraph orchestration, and local LLM inference using Ollama.
+Intent-Aware Retrieval-Augmented Generation (RAG) system using DistilBERT, LangGraph, FastAPI, Angular, and Ollama.
 
-> A full-stack AI learning platform that combines **DistilBERT intent classification**, **LangGraph adaptive routing**, **local LLM inference with Ollama**, and a **modern Angular frontend** to dynamically choose the best retrieval strategy for each user query.
+## Verified Working State
 
----
+This repository has been verified working end-to-end with the following verified components:
 
-## Preview
+- **Frontend (Angular)** running on **http://localhost:4200**
+- **Intent Classifier (FastAPI)** running on **http://localhost:8000**
+  - Model loads successfully
+  - **POST `/predict`** works
+- **Adaptive RAG Backend (FastAPI)** running on **http://localhost:8001**
+  - **GET `/health`** works
+  - **POST `/query`** works
+- **Ollama** running with the verified installed model:
+  - `qwen2.5-coder:3b`
 
-```text
-Debugging Query  → Web Search Route
-Theory Question  → Vectorstore Route
-```
+## Overview
 
-The system visually exposes:
+Adaptive RAG AI Learning Platform is a full-stack AI learning platform that dynamically chooses retrieval strategies based on query intent and exposes routing transparency to the user.
 
-* predicted intent
-* confidence score
-* selected graph route
-* retrieval strategy
-* classifier traces
+It combines:
 
-inside the frontend UI in real time.
+- **DistilBERT Intent Classification**
+- **Adaptive RAG Routing**
+- **LangGraph Workflow**
+- **FastAPI Backend**
+- **Ollama Local LLM Inference**
+- **Angular Frontend**
 
----
+## Features
 
-# Features
+- DistilBERT Intent Classification
+- Intent-Aware Query Routing
+- Adaptive Retrieval Routing
+- Retrieval-Augmented Generation (RAG) Pipeline
+- LangGraph Workflow Orchestration
+- FastAPI Microservices
+- JWT Authentication
+- Ollama Local LLM Integration
+- Angular Frontend
+- Real-Time Routing Transparency
 
-## Adaptive Query Routing
-
-Queries are dynamically routed using a fine-tuned DistilBERT classifier.
-
-| Query Type              | Route                 |
-| ----------------------- | --------------------- |
-| Debugging / coding help | Web Search            |
-| Theory / concepts       | Vectorstore Retrieval |
-
----
-
-## Full Stack Architecture
-
-### Frontend
-
-* Angular 19
-* TypeScript
-* JWT auth
-* Responsive cyberpunk UI
-* Live routing visualization
-
-### Backend
-
-* FastAPI
-* LangGraph orchestration
-* ChromaDB vector retrieval
-* SQLite authentication
-* Ollama local LLM inference
-
-### ML / AI
-
-* DistilBERT intent classifier
-* Transformers + PyTorch
-* Adaptive RAG pipeline
-
----
-
-# System Architecture
+## Architecture
 
 ```text
 Angular Frontend (4200)
         ↓
 Adaptive RAG Backend (8001)
         ↓
-Intent Classifier Service (8000)
+Intent Classifier (8000)
         ↓
-LangGraph Routing Engine
+LangGraph Workflow
         ↓
-├── Vectorstore Retrieval (ChromaDB)
-└── Web Search Route
+Vector Retrieval / Search
         ↓
-Ollama Local LLM
+Ollama LLM
 ```
 
----
+The classifier predicts user intent, the LangGraph workflow selects an appropriate retrieval strategy, and Ollama generates the final response using retrieved context.
 
-# Key Capabilities
+## Tech Stack
 
-* Intent-aware adaptive retrieval
-* JWT-secured authentication
-* LangGraph multi-stage orchestration
-* Live route transparency
-* Query history
-* Responsive UI
-* Local offline inference
-* Real-time classifier confidence display
-* Full-stack AI workflow visualization
+**Frontend**
+- Angular
+- TypeScript
 
----
+**Backend**
+- FastAPI
+- LangGraph
+- SQLite
+- SQLAlchemy
 
-# Demo Flow
+**AI/ML**
+- DistilBERT
+- Transformers
+- PyTorch
+- Ollama
 
-## Theory Question
+## Project Structure
+
+```text
+adaptive-rag-ai-platform/
+├── frontend/
+├── edu-intent-classifier/
+├── Adaptive_RAG-Fastapi-Langgraph/
+└── README.md
+```
+
+## Initial Setup
+
+This section assumes a **completely fresh clone**.
+
+### Prerequisites
+
+- Python **3.11** (recommended)
+- Node.js (includes npm)
+- Ollama installed locally
+
+### Clone Repository
+
+```bash
+git clone https://github.com/HemanthHarish07/adaptive-rag-ai-platform.git
+cd adaptive-rag-ai-platform
+```
+
+### Create Virtual Environment (Windows)
+
+```powershell
+py -3.11 -m venv .venv
+```
+
+### Activate Virtual Environment (PowerShell)
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### Install Backend Dependencies (Adaptive RAG Backend)
+
+```powershell
+pip install -r Adaptive_RAG-Fastapi-Langgraph/requirements.txt
+```
+
+### Install Classifier Dependencies (Intent Classifier)
+
+```powershell
+pip install -r edu-intent-classifier/requirements.txt
+```
+
+### Install Frontend Dependencies
+
+```powershell
+cd frontend
+npm install
+```
+
+## Running the Project
+
+### Terminal 1 — Intent Classifier
+
+```powershell
+cd edu-intent-classifier
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+### Terminal 2 — Adaptive RAG Backend
+
+> Important: start the backend **from inside** `Adaptive_RAG-Fastapi-Langgraph/` otherwise Python may not resolve the app package.
+
+```powershell
+cd Adaptive_RAG-Fastapi-Langgraph
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8001
+```
+
+### Terminal 3 — Angular Frontend
+
+```powershell
+cd frontend
+npx ng serve
+```
+
+## Application URLs
+
+- **Frontend:** http://localhost:4200
+- **Classifier:** http://localhost:8000/docs
+- **Backend:** http://localhost:8001/docs
+
+## API Endpoints
+
+### Classifier Service
+
+- **POST** `/predict`
+- **GET** `/health`
+
+### Adaptive RAG Backend
+
+- **POST** `/query`
+- **GET** `/health`
+- **POST** `/token`
+- **POST** `/register`
+- **GET** `/users/me`
+
+## Example Queries
+
+### Theory Query
 
 Input:
 
@@ -108,24 +195,15 @@ What is machine learning?
 Expected Route:
 
 ```text
-vectorstore retrieval
+vectorstore
 ```
 
-Displayed Metadata:
-
-* predicted_intent
-* confidence score
-* retrieval strategy
-* graph route
-
----
-
-## Debugging Question
+### Debugging Query
 
 Input:
 
 ```text
-How do I fix this Python traceback error?
+How do I fix a Python traceback error?
 ```
 
 Expected Route:
@@ -134,180 +212,96 @@ Expected Route:
 websearch
 ```
 
-Displayed Metadata:
+## Ollama
 
-* predicted_intent
-* confidence score
-* retrieval strategy
-* graph route
+**Current verified model:**
 
----
+- `qwen2.5-coder:3b`
 
-# Project Structure
+### Optional upgrade
 
-```text
-Project 3/
-│
-├── frontend/                         # Angular frontend
-│
-├── edu-intent-classifier/            # DistilBERT classifier API
-│
-├── Adaptive_RAG-Fastapi-Langgraph/  # LangGraph RAG backend
-│
-└── README.md
+You may optionally pull a larger model:
+
+```bash
+ollama pull qwen2.5:7b
 ```
 
----
+### Environment variables
 
-# Running the Project
+- `OLLAMA_PRIMARY_MODEL=qwen2.5:7b`
+- `OLLAMA_FALLBACK_MODEL=qwen2.5-coder:3b`
 
-## Prerequisites
+**Note:** The 7B model is optional and improves answer quality but is not required.
 
-* Python 3.11
-* Node.js + npm
-* Ollama installed locally
-* Ports available:
+## Common Startup Issues
 
-  * 4200
-  * 8000
-  * 8001
+### 1) Backend package import errors
 
----
+Symptom: backend fails to start due to import/package resolution.
 
-# Start Backend Services
+Fix: run the backend from inside:
 
+- `Adaptive_RAG-Fastapi-Langgraph/`
 
-### Terminal 1 — Intent Classifier
-```powershell
-cd "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/edu-intent-classifier"
-& "../.venv/Scripts/python.exe" -m uvicorn app:app --host 0.0.0.0 --port 8000
-```
+### 2) Port conflicts
 
-### Terminal 2 — Adaptive RAG Backend
-```powershell
-cd "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/Adaptive_RAG-Fastapi-Langgraph"
-& ".venv\Scripts\python.exe" run_server.py
-```
+Symptom: `address already in use` on one of the ports.
 
-### Terminal 3 — Angular Frontend
-```powershell
-cd "c:/Users/Sree/Desktop/Internship/Essentials/Projects/Project 3/frontend"
-npx @angular/cli serve
-```
+Fix: stop the process using the port or change the host/port in the startup commands.
 
----
+### 3) Ollama model not available
 
-# Application URLs
+Symptom: model load failures or missing model errors.
 
-| Service                 | URL                                                              |
-| ----------------------- | ---------------------------------------------------------------- |
-| Angular Frontend        | [http://localhost:4200](http://localhost:4200)                   |
-| Login Page              | [http://localhost:4200/login](http://localhost:4200/login)       |
-| Register Page           | [http://localhost:4200/register](http://localhost:4200/register) |
-| RAG Swagger Docs        | [http://localhost:8001/docs](http://localhost:8001/docs)         |
-| Classifier Swagger Docs | [http://localhost:8000/docs](http://localhost:8000/docs)         |
+Fix: ensure Ollama is running and that `qwen2.5-coder:3b` is installed (or configure models via the environment variables shown above).
 
----
+## Resume-Relevant Engineering Concepts
 
-# API Endpoints
+### Key Engineering Highlights
 
-## Authentication
+- DistilBERT-based intent classification
+- **Adaptive RAG routing** to select retrieval strategies per query
+- **LangGraph** orchestration workflow
+- **FastAPI** microservices architecture
+- **JWT-secured** authentication
+- Local LLM inference with **Ollama**
+- **Angular + FastAPI** full-stack implementation
+- Retrieval transparency and explainability (route + retrieval strategy visibility)
 
-```text
-POST /token
-POST /register
-GET  /users/me
-```
+## (ATS) Notes for Recruiters
 
-## Intent Classifier
+- Retrieval strategy is chosen dynamically based on intent.
+- System exposes routing transparency to support user trust.
+- All services run locally using verified endpoints.
 
-```text
-POST /predict
-GET  /health
-```
+## Skills Demonstrated
 
-## Adaptive RAG
+- Retrieval-Augmented Generation (RAG)
+- Natural Language Processing (NLP)
+- DistilBERT Intent Classification
+- LangGraph Workflow Orchestration
+- FastAPI Development
+- Angular Development
+- JWT Authentication
+- Vector Search
+- Ollama Integration
+- PyTorch
+- Transformers
+- REST API Design
+- Full Stack Development
 
-```text
-POST /query
-GET  /health
-```
+## Example Response
 
----
+Query:
 
-# LangGraph Workflow
+What is machine learning?
 
-The backend uses a multi-stage LangGraph pipeline:
+Output Metadata:
 
-```text
-Route → Retrieve → Generate → Grade
-```
+- predicted_intent: theory
+- confidence_score: 0.85
+- selected_route: vectorstore
+- retrieval_strategy: chroma_vector_search
 
-### Route Stage
-
-Determines the optimal retrieval path using classifier output.
-
-### Retrieve Stage
-
-Fetches relevant context from:
-
-* ChromaDB
-* web search
-
-### Generate Stage
-
-Uses Ollama to generate the final answer.
-
-### Grade Stage
-
-Evaluates response quality and retries if needed.
-
----
-
-# Authentication Flow
-
-```text
-Frontend Login
-    ↓
-POST /token
-    ↓
-JWT Generated
-    ↓
-Stored in Frontend
-    ↓
-Bearer Token attached to /query requests
-```
-
----
-
-# Why This Project Is Unique
-
-* Custom fine-tuned DistilBERT classifier
-* Adaptive ML-driven routing
-* LangGraph orchestration pipeline
-* Local LLM execution using Ollama
-* Full-stack implementation
-* Transparent AI routing visualization
-* No dependency on paid cloud AI APIs
-
----
-
-# Future Improvements
-
-* Docker deployment
-* Redis caching
-* Streaming token responses
-* Multi-user support
-* Voice interaction
-* Cloud vector database
-* CI/CD pipeline
-* Kubernetes deployment
-
----
-
-# Author
-
-## Hemanth Harish
-
-GitHub:
-[https://github.com/HemanthHarish07/adaptive-rag-ai-platform](https://github.com/HemanthHarish07/adaptive-rag-ai-platform)
+Response:
+Generated locally using Ollama.
