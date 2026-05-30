@@ -10,7 +10,10 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from torch.utils.data import DataLoader
 
-from .dataset import load_and_prepare_dataset, LABEL_MAPPING, ID_MAPPING
+try:
+    from .dataset import load_and_prepare_dataset, LABEL_MAPPING, ID_MAPPING
+except ImportError:
+    from dataset import load_and_prepare_dataset, LABEL_MAPPING, ID_MAPPING
 
 
 def plot_confusion_matrix(cm, classes, save_path):
@@ -89,8 +92,8 @@ def main():
     print("Generating predictions on the validation set...")
     with torch.no_grad():
         for batch in dataloader:
-            input_ids = batch["input_ids"].to(device)
-            attention_mask = batch["attention_mask"].to(device)
+            input_ids = torch.stack(batch["input_ids"], dim=1).to(device)
+            attention_mask = torch.stack(batch["attention_mask"], dim=1).to(device)
             labels = batch["label"].to(device)
             
             outputs = model(input_ids=input_ids, attention_mask=attention_mask)

@@ -1,0 +1,117 @@
+[33mcommit 3fef7dab42a79064ba5b5b62cf222f9e7b0acd30[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Hemanth Harish <hemanthharish985@gmail.com>
+Date:   Sat May 23 16:12:04 2026 +0530
+
+    docs: add root project README
+
+ README.md | 20 [31m--------------------[m
+ 1 file changed, 20 deletions(-)
+
+[33mcommit 79e81788eb813c7b01746a6e4665d5a00e66f58d[m
+Author: Hemanth Harish <hemanthharish985@gmail.com>
+Date:   Sat May 23 16:07:39 2026 +0530
+
+    docs: add root project README
+
+ README.md | 31 [32m+++++++++[m[31m----------------------[m
+ 1 file changed, 9 insertions(+), 22 deletions(-)
+
+[33mcommit 953edc921886297646f8026f4f43c53fa8144371[m
+Author: Hemanth Harish <hemanthharish985@gmail.com>
+Date:   Sat May 23 16:02:51 2026 +0530
+
+    docs: add root project README
+
+ README.md | 407 [32m+++++++++++++++++++++++++++++++++++++++++++[m[31m-------------------[m
+ 1 file changed, 285 insertions(+), 122 deletions(-)
+
+[33mcommit de78c0cf211aab336d4adade4d9066239528ce06[m
+Author: Hemanth Harish <hemanthharish985@gmail.com>
+Date:   Sat May 23 15:59:13 2026 +0530
+
+    docs: add root project README
+
+ README.md | 183 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 183 insertions(+)
+
+[33mcommit e716a6af81dca616aa81debf7b18377508e6d222[m
+Author: Hemanth Harish <hemanthharish985@gmail.com>
+Date:   Sat May 23 15:49:04 2026 +0530
+
+    chore: remove large model files from tracking
+
+ .gitignore | 10 [32m++++++++++[m
+ 1 file changed, 10 insertions(+)
+
+[33mcommit 36b53154c0f44ad5f27b0819702b22da8ff03609[m
+Author: Hemanth Harish <hemanthharish985@gmail.com>
+Date:   Sat May 23 15:17:21 2026 +0530
+
+    feat: complete Adaptive RAG platform — DistilBERT classifier, LangGraph pipeline, local Ollama LLM, Angular UI, JWT auth
+
+ .gitignore                                         |    40 [32m+[m
+ Adaptive_RAG-Fastapi-Langgraph                     |     1 [32m+[m
+ edu-intent-classifier/.gitignore                   |     8 [32m+[m
+ edu-intent-classifier/app.py                       |   153 [32m+[m
+ edu-intent-classifier/data/raw/intent_dataset.csv  |   901 [32m++[m
+ .../data/raw/intent_dataset.jsonl                  |   900 [32m++[m
+ edu-intent-classifier/requirements.txt             |    15 [32m+[m
+ edu-intent-classifier/run.py                       |   136 [32m+[m
+ edu-intent-classifier/src/__init__.py              |    14 [32m+[m
+ edu-intent-classifier/src/app.py                   |   700 [32m+[m
+ edu-intent-classifier/src/data_generation.py       |   475 [32m+[m
+ edu-intent-classifier/src/dataset.py               |    81 [32m+[m
+ edu-intent-classifier/src/evaluate.py              |   157 [32m+[m
+ edu-intent-classifier/src/inference.py             |   184 [32m+[m
+ edu-intent-classifier/src/train.py                 |   141 [32m+[m
+ frontend/.editorconfig                             |    17 [32m+[m
+ frontend/.gitignore                                |    42 [32m+[m
+ frontend/.vscode/extensions.json                   |     4 [32m+[m
+ frontend/.vscode/launch.json                       |    20 [32m+[m
+ frontend/.vscode/tasks.json                        |    42 [32m+[m
+ frontend/README.md                                 |    44 [32m+[m
+ frontend/angular.json                              |   102 [32m+[m
+ frontend/package-lock.json                         | 15323 [32m+++++++++++++++++++[m
+ frontend/package.json                              |    37 [32m+[m
+ frontend/public/favicon.ico                        |   Bin [31m0[m -> [32m15086[m bytes
+ frontend/src/app/app.component.html                |     3 [32m+[m
+ frontend/src/app/app.component.scss                |    11 [32m+[m
+ frontend/src/app/app.component.spec.ts             |    29 [32m+[m
+ frontend/src/app/app.component.ts                  |    12 [32m+[m
+ frontend/src/app/app.config.ts                     |    19 [32m+[m
+ frontend/src/app/app.routes.ts                     |    17 [32m+[m
+ .../components/dashboard/dashboard.component.html  |   131 [32m+[m
+ .../components/dashboard/dashboard.component.scss  |   309 [32m+[m
+ .../components/dashboard/dashboard.component.ts    |   162 [32m+[m
+ .../src/app/components/login/login.component.html  |    29 [32m+[m
+ .../src/app/components/login/login.component.scss  |   124 [32m+[m
+ .../src/app/components/login/login.component.ts    |    54 [32m+[m
+ .../app/components/navbar/navbar.component.html    |    17 [32m+[m
+ .../app/components/navbar/navbar.component.scss    |    74 [32m+[m
+ .../src/app/components/navbar/navbar.component.ts  |    23 [32m+[m
+ .../components/register/register.component.html    |    35 [32m+[m
+ .../components/register/register.component.scss    |   133 [32m+[m
+ .../app/components/register/register.component.ts  |    53 [32m+[m
+ .../result-card/result-card.component.html         |    23 [32m+[m
+ .../result-card/result-card.component.scss         |    86 [32m+[m
+ .../result-card/result-card.component.ts           |    14 [32m+[m
+ .../route-badge/route-badge.component.html         |     4 [32m+[m
+ .../route-badge/route-badge.component.scss         |    41 [32m+[m
+ .../route-badge/route-badge.component.ts           |    15 [32m+[m
+ frontend/src/app/models/auth.model.ts              |    10 [32m+[m
+ frontend/src/app/models/query.model.ts             |    16 [32m+[m
+ frontend/src/app/services/api.service.ts           |    18 [32m+[m
+ frontend/src/app/services/auth.guard.ts            |    15 [32m+[m
+ frontend/src/app/services/auth.service.ts          |    55 [32m+[m
+ frontend/src/app/services/classifier.service.ts    |    22 [32m+[m
+ frontend/src/app/services/query.service.ts         |    48 [32m+[m
+ frontend/src/app/services/token.interceptor.ts     |    23 [32m+[m
+ frontend/src/environments/environment.prod.ts      |     5 [32m+[m
+ frontend/src/environments/environment.ts           |     5 [32m+[m
+ frontend/src/index.html                            |    13 [32m+[m
+ frontend/src/main.ts                               |     6 [32m+[m
+ frontend/src/styles.scss                           |    43 [32m+[m
+ frontend/tsconfig.app.json                         |    15 [32m+[m
+ frontend/tsconfig.json                             |    28 [32m+[m
+ frontend/tsconfig.spec.json                        |    15 [32m+[m
+ 65 files changed, 21292 insertions(+)

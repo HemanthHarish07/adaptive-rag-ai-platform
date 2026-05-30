@@ -99,7 +99,13 @@ async def serve_dashboard():
 
 @app.get("/health", tags=["System"])
 async def health_check():
-    model_status = "loaded" if classifier is not None else "not_loaded"
+    if classifier is None:
+        model_status = "not_loaded"
+    elif getattr(classifier, "use_fallback", False):
+        model_status = "fallback"
+    else:
+        model_status = "loaded"
+
     return {
         "status": "healthy",
         "model_status": model_status,

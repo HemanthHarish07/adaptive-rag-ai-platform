@@ -6,14 +6,13 @@ from datasets import Dataset
 from sklearn.model_selection import train_test_split
 from transformers import AutoTokenizer
 
-# Static label mapping based on requirements
+# Static label mapping for the internship intent classifier.
+# The adaptive routing architecture only requires two routes:
+# - theory
+# - debugging
 LABEL_MAPPING = {
-    "concept_explanation": 0,
-    "coding_help": 1,
-    "exam_preparation": 2,
-    "debugging": 3,
-    "definition": 4,
-    "theory": 5,
+    "debugging": 0,
+    "theory": 1,
 }
 
 ID_MAPPING = {value: key for key, value in LABEL_MAPPING.items()}

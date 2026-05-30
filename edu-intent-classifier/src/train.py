@@ -10,7 +10,10 @@ from transformers import (
 )
 import torch
 
-from .dataset import load_and_prepare_dataset
+try:
+    from .dataset import load_and_prepare_dataset
+except ImportError:
+    from dataset import load_and_prepare_dataset
 
 
 def compute_metrics(eval_pred):
